@@ -1,0 +1,147 @@
+{
+	"id": "4b01fc7b-d19c-ed11-994c-000d3a66eaa0",
+	"createdAt": "2023-01-25T16:58:30.603Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"fields": [
+		{
+			"id": "354b7e2d-d199-4647-9a3b-fc887e101e6a",
+			"fieldName": "CategorySort",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "c303f890-f18c-4fc4-aca6-93758ad9574c",
+			"fieldName": "CategoryAbbreviation",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "24fc7de2-3d9e-4c85-dea4-01327eb44eb7",
+			"fieldName": "CategoryName",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "a452481a-cb00-46e3-93b1-cc11fe3e1cc8",
+			"fieldName": "CategoryDescription",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "c19bf3a5-5c7e-4890-b4a2-4d409f511e00",
+			"fieldName": "QuestionID",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "unique alphanumeric code for each question beginning with the 3-letter section abbreviation"
+		},
+		{
+			"id": "bb0d3f42-3431-4968-bcf4-a65ae983276c",
+			"fieldName": "ReferenceID",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Saudi Health Dictionary / ICD10 v. 2019"
+		},
+		{
+			"id": "1f12d360-9d29-44ef-d9fa-d13cbd2c2599",
+			"fieldName": "DataType",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "901e288f-80c8-44b8-e72e-1f5f8b1e9579",
+			"fieldName": "Variable",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "instrument variable name for the question"
+		},
+		{
+			"id": "e9aa8d72-068b-4595-d714-e65838558baf",
+			"fieldName": "InterviewModule",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Module where the question is located: Adults (18 yrs ≤ age < 65 yrs); Elderly ( age ≥ 65 yrs); Pediatrics (age < 18 yrs); Family."
+		},
+		{
+			"id": "8523cf83-4ff0-4394-9e02-a083f046c077",
+			"fieldName": "ContentType",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "1. Registration; 2. Adults' Core; 3. Elderly Core; 4. Individual's Core; 5. Family's Core; 6. Selective; 7. Retired"
+		},
+		{
+			"id": "0326a695-bcda-4089-f481-57fd573ce2ef",
+			"fieldName": "QuestionTextArabic",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "قد تتضمن الاسئلة المقدمة للمستجيب مع المؤشرات التي يجب تعبئتها ، على تعليمات مقدمة للمحاور"
+		},
+		{
+			"id": "f5ae2fc7-b22d-4d32-9a4e-0291a1feacda",
+			"fieldName": "QuestionTextEnglish",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "question-wording administered to the respondent with indicators for fills; may also include interviewer instructions"
+		},
+		{
+			"id": "9175acae-ceac-43be-d692-a0a5e6a6a439",
+			"fieldName": "ResponseArabic",
+			"fieldType": "json",
+			"isUnique": false,
+			"description": "جدول يتضمن الردود المحتملة على الاسئلة",
+			"isNullable": true
+		},
+		{
+			"id": "b316377c-372c-45d2-b0aa-9dae940c6510",
+			"fieldName": "ResponseEnglish",
+			"fieldType": "json",
+			"isUnique": false,
+			"description": "table of possible responses to the question",
+			"isNullable": true
+		},
+		{
+			"id": "7f04a727-1824-4176-9bef-8622d0758779",
+			"fieldName": "ResponseType",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "2d155c4f-5786-441b-dace-08303b28e716",
+			"fieldName": "SkipInstructions",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "instructions for moving to the next question in the questionnaire"
+		},
+		{
+			"id": "21bf8310-bc3c-483c-a54a-aa192cc4fa4b",
+			"fieldName": "RiskScore",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "yes, 1; no, 0"
+		},
+		{
+			"id": "900f9716-53f7-413b-d3cc-07945d465a42",
+			"fieldName": "QuestionInstructionsHints",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "b5823e0d-42de-448f-f4b2-3055accbfa7c",
+			"fieldName": "Lang",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "cnhi_questionaire_poc_test",
+	"description": "Table with the Questions for the POC",
+	"ver": "24.3.21.1617",
+	"enableAudit": true,
+	"includeDataInPackage": true,
+	"package": "d6ab558b-8c95-ed11-9f5f-000d3a66e586",
+	"rolesRead": [],
+	"rolesWrite": []
+}

@@ -1,0 +1,42 @@
+{
+	"id": "fd09e599-a498-ed11-9f5f-000d3a66e586",
+	"createdAt": "2023-01-20T09:27:09.273Z",
+	"createdBy": "david.bartolome@neptune-software.com",
+	"fields": [
+		{
+			"id": "2a2b24a4-9c34-49b0-8d9e-7e034d177eb4",
+			"fieldName": "CategorySort",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "2b57309b-a270-4398-9137-bd4c2c05f16a",
+			"fieldName": "CategoryAbbreviation",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "91e5c87a-ddd7-4097-d3c4-3d51a2d920f4",
+			"fieldName": "CategoryName",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "14a613f5-d317-4a15-a84c-79d50895b54c",
+			"fieldName": "CategoryDescription",
+			"fieldType": "text",
+			"isUnique": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "cnhi_questionaire_poc_categories",
+	"description": "Table with the Categories for the POC",
+	"ver": "24.3.21.1616",
+	"enableAudit": true,
+	"includeDataInPackage": true,
+	"package": "d6ab558b-8c95-ed11-9f5f-000d3a66e586",
+	"rolesRead": [],
+	"rolesWrite": []
+}

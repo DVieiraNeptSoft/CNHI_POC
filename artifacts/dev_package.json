@@ -1,0 +1,126 @@
+{
+	"id": "d6ab558b-8c95-ed11-9f5f-000d3a66e586",
+	"createdAt": "2023-01-16T10:57:19.393Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"git": {
+		"remote": "https://github.com/DVieiraNeptSoft/CNHI_POC"
+	},
+	"name": "CNHI_POC",
+	"description": "Package with All of CNHI POC Content",
+	"ver": "24.3.21.1518",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "bb6f82c5-14a3-ed11-994c-000d3a66eaa0",
+			"application": "cnhi_surveylistapp",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "D6AB558B-8C95-ED11-9F5F-000D3A66E586"
+			}
+		}
+	],
+	"api": [
+		{
+			"id": "c20b0fb9-eaa2-ed11-994c-000d3a66eaa0",
+			"name": "api_cnhi_questionaire_answers",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "90c63916-a598-ed11-9f5f-000d3a66e586",
+			"name": "API cnhi_questionaire_poc_categories",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "fd09e599-a498-ed11-9f5f-000d3a66e586",
+			"name": "cnhi_questionaire_poc_categories",
+			"description": "Table with the Categories for the POC"
+		},
+		{
+			"id": "f3664bb2-9095-ed11-9f5f-000d3a66e586",
+			"name": "cnhi_questionaire_poc",
+			"description": "Table with the Questions for the POC"
+		},
+		{
+			"id": "837eb3f4-afa3-ed11-994c-000d3a66eaa0",
+			"name": "cnhi_questionaire_poc_chart",
+			"description": null
+		},
+		{
+			"id": "4b01fc7b-d19c-ed11-994c-000d3a66eaa0",
+			"name": "cnhi_questionaire_poc_test",
+			"description": "Table with the Questions for the POC"
+		},
+		{
+			"id": "17b1d4b1-4d9e-ed11-994c-000d3a66eaa0",
+			"name": "cnhi_questionaire_answers",
+			"description": "Table containing all the answers"
+		}
+	],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [
+		{
+			"id": "14b30ee0-a6a3-ed11-994c-000d3a66eaa0",
+			"name": "cnhi_adaptive_tile",
+			"description": "",
+			"application": "planet9_adaptive_tile_chart"
+		}
+	],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "9a13a77f-a4a3-ed11-994c-000d3a66eaa0",
+			"description": null,
+			"name": "CNHI_SURVEYLIST_TILE"
+		},
+		{
+			"id": "254c1022-bf9c-ed11-994c-000d3a66eaa0",
+			"description": null,
+			"name": "CNHI_SURVEY_TILE"
+		}
+	],
+	"category": [
+		{
+			"id": "64d3f339-bf9c-ed11-994c-000d3a66eaa0",
+			"description": null,
+			"name": "CNHI_TILEGROUP_POC"
+		}
+	],
+	"launchpad": [
+		{
+			"id": "1cbca6e4-be9c-ed11-994c-000d3a66eaa0",
+			"name": "cnhi_launchpad_poc",
+			"description": null
+		}
+	],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [
+		{
+			"id": "055f84a4-a6a3-ed11-994c-000d3a66eaa0",
+			"name": "cnhi_getsurveylist",
+			"description": null
+		}
+	],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}

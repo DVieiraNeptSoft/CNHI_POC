@@ -1,0 +1,140 @@
+{
+	"id": "f3664bb2-9095-ed11-9f5f-000d3a66e586",
+	"createdAt": "2023-01-16T11:27:06.083Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"fields": [
+		{
+			"id": "1a33bad4-d21e-438f-f6c7-19a37ab6581e",
+			"fieldName": "CategorySort",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "36cfc206-4373-44bb-e343-bd56e633ce09",
+			"fieldName": "CategoryAbbreviation",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "30a405ef-e2ca-44de-f9a0-d22d8621b465",
+			"fieldName": "CategoryName",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "a8222273-dd2d-4958-9c8d-41fbf42dcce1",
+			"fieldName": "CategoryDescription",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "0d193dc0-301f-41e4-b8ea-9146aac2cae9",
+			"fieldName": "QuestionID",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "unique alphanumeric code for each question beginning with the 3-letter section abbreviation"
+		},
+		{
+			"id": "f59d3856-63c9-4fcd-c159-1915a683c1aa",
+			"fieldName": "ReferenceID",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Saudi Health Dictionary / ICD10 v. 2019"
+		},
+		{
+			"id": "7335e0bb-d16d-47a7-909b-4b620dff3d43",
+			"fieldName": "DataType",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "bd37dfbd-b34a-4470-d3e4-4769e05d37d6",
+			"fieldName": "Variable",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "instrument variable name for the question"
+		},
+		{
+			"id": "12bf3738-9c3c-4a56-80b6-ba6de5340f8f",
+			"fieldName": "InterviewModule",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Module where the question is located: Adults (18 yrs ≤ age < 65 yrs); Elderly ( age ≥ 65 yrs); Pediatrics (age < 18 yrs); Family."
+		},
+		{
+			"id": "f59b67c4-7911-49be-a485-ce82aa0fea05",
+			"fieldName": "ContentType",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "1. Registration; 2. Adults' Core; 3. Elderly Core; 4. Individual's Core; 5. Family's Core; 6. Selective; 7. Retired"
+		},
+		{
+			"id": "40e973ec-3935-4c38-d251-bb5d006968d3",
+			"fieldName": "QuestionTextArabic",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "قد تتضمن الاسئلة المقدمة للمستجيب مع المؤشرات التي يجب تعبئتها ، على تعليمات مقدمة للمحاور"
+		},
+		{
+			"id": "0d892f9d-ea58-43ea-891c-7e978d6c26e0",
+			"fieldName": "QuestionTextEnglish",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "question-wording administered to the respondent with indicators for fills; may also include interviewer instructions"
+		},
+		{
+			"id": "8bdaa142-c529-4730-c45c-4b99958becbf",
+			"fieldName": "ResponseArabic",
+			"fieldType": "json",
+			"isUnique": false,
+			"description": "جدول يتضمن الردود المحتملة على الاسئلة",
+			"isNullable": true
+		},
+		{
+			"id": "4446c060-6aeb-4b30-8c71-ef6eb438506a",
+			"fieldName": "ResponseEnglish",
+			"fieldType": "json",
+			"isUnique": false,
+			"description": "table of possible responses to the question",
+			"isNullable": true
+		},
+		{
+			"id": "e678fd81-9132-49b1-9a59-3d5323bea4fe",
+			"fieldName": "ResponseType",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "2d706d7c-1c44-490c-ee02-fa4069de66d2",
+			"fieldName": "SkipInstructions",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "instructions for moving to the next question in the questionnaire"
+		},
+		{
+			"id": "9f54a615-5e87-4ffd-d228-499a13310472",
+			"fieldName": "RiskScore",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "yes, 1; no, 0"
+		},
+		{
+			"id": "60ef66e5-b562-49d0-a79c-c78c0e3ecaa3",
+			"fieldName": "QuestionInstructionsHints",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "cnhi_questionaire_poc",
+	"description": "Table with the Questions for the POC",
+	"ver": "24.3.21.1616",
+	"enableAudit": true,
+	"includeDataInPackage": true,
+	"package": "d6ab558b-8c95-ed11-9f5f-000d3a66e586",
+	"rolesRead": [],
+	"rolesWrite": []
+}

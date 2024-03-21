@@ -1,0 +1,13 @@
+if (typeof InterviewDate === "undefined" || InterviewDate === null || InterviewDate === "") { return; }  
+
+var formattedText;
+
+InterviewDate = InterviewDate.substr(0,10);
+
+var year = InterviewDate.substr(0,4); //year
+var day = InterviewDate.substr(5,2); //month
+var month = InterviewDate.substr(8,2); //day
+
+formattedText = day + '/' + month + '/' + year;
+
+return formattedText;

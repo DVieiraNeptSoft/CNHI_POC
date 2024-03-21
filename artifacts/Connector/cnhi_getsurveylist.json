@@ -1,0 +1,18 @@
+{
+	"id": "055f84a4-a6a3-ed11-994c-000d3a66eaa0",
+	"createdAt": "2023-02-03T09:39:24.846Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"settings": {
+		"previewable": true,
+		"tableid": "17b1d4b1-4d9e-ed11-994c-000d3a66eaa0",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "cnhi_getsurveylist",
+	"description": null,
+	"group": null,
+	"type": "T",
+	"ver": "23.2.3.1650",
+	"disabled": false,
+	"package": "d6ab558b-8c95-ed11-9f5f-000d3a66e586"
+}

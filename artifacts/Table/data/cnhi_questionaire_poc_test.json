@@ -1,0 +1,5568 @@
+[
+	{
+		"id": "fe1e2f4a-4490-4948-afff-782026b63548",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.25",
+		"ReferenceID": "M30, M31, M33, M34, M35, M36",
+		"DataType": "numeric",
+		"Variable": "Other Connective Tissue Diseases",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "أمراض الأنسجة الضامة الأخرى",
+		"QuestionTextEnglish": "Other Connective Tissue Diseases",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "fc8c39f0-544b-4d8a-a135-3aa57c9c68f0",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 70,
+		"CategoryAbbreviation": "MHS",
+		"CategoryName": "Mental Health Status",
+		"CategoryDescription": "In this section the patient is asked questions about his mental health status and mood.",
+		"QuestionID": "MHS002.00.01",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Stress",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "التوتر \"كم مرة يمثل التوتر مشكلة بالنسبة لك في التعامل مع الأشياء اليومية مثل صحتك أو أموالك أو عملك أو علاقاتك مع العائلة والأصدقاء؟\"",
+		"QuestionTextEnglish": "Stress: \"How often is stress a problem for you in handling everyday things such as your health, money, work, or relationships with family and friends?\"",
+		"ResponseArabic": [
+			{
+				"Response": "1 = لا على الإطلاق"
+			},
+			{
+				"Response": "2 = عدة أيام"
+			},
+			{
+				"Response": "3 = أكثر من نصف الأيام"
+			},
+			{
+				"Response": "4 = كل يوم تقريبًا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = not at all"
+			},
+			{
+				"Response": "2 = several days"
+			},
+			{
+				"Response": "3 = more than half the days"
+			},
+			{
+				"Response": "4 = nearly every day"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "fb1198b9-bcc9-4615-85c4-1522f0a22dc0",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 30,
+		"CategoryAbbreviation": "BMT",
+		"CategoryName": "Biometrics",
+		"CategoryDescription": "In this section, biometrics are recorded: blood pressure, height, weight, and BMI. In addition, if present, ongoing pregnancy is flagged to exclude biases in the BMI calculation.",
+		"QuestionID": "BMT005.00.02",
+		"ReferenceID": "na",
+		"DataType": "datetime",
+		"Variable": "Waist Circumference 2",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "تاريخ القياس",
+		"QuestionTextEnglish": "Date of measurement",
+		"ResponseArabic": {
+			"Response": "",
+			"Placeholder": "الميلادي (يوم/شهر/سنة)"
+		},
+		"ResponseEnglish": {
+			"Response": "",
+			"Placeholder": "Gregorian (DDMMYYYY)"
+		},
+		"ResponseType": "ddmmyyyy",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "fa64daf7-b68a-4534-9a90-7f60e11fd97f",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 60,
+		"CategoryAbbreviation": "FRS",
+		"CategoryName": "Family Risk Score",
+		"CategoryDescription": "In this section, the presence of familiarity with diseases of concern is investigated through a specific set of questions.",
+		"QuestionID": "FRS002.00.01",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Family History of Diabetes",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "التاريخ العائلي لمرض السكري",
+		"QuestionTextEnglish": "Family History of Diabetes Mellitus",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "fa196231-155b-4952-bba1-cd192ee34612",
+		"createdAt": "1674665938890",
+		"updatedAt": "1674665938890",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.06",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Diabetes Mellitus type 2 control",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "كيف يتم علاج مرض السكري؟",
+		"QuestionTextEnglish": "How is diabetes controlled?",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نظام غذائي خاضع للرقابة"
+			},
+			{
+				"Response": "2 = غير متقدم"
+			},
+			{
+				"Response": "3 = أدى الى تلف عضو بشكل نهائي"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = diet controlled"
+			},
+			{
+				"Response": "2 = uncomplicated"
+			},
+			{
+				"Response": "3 = with end organ damage"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "f7690b77-f99f-4cc8-8fdf-6fc96190d22c",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.33",
+		"ReferenceID": "D56",
+		"DataType": "numeric",
+		"Variable": "Thalassemia",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "الثلاسيميا ",
+		"QuestionTextEnglish": "Thalassemia",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "f5ab55f5-8a8e-4fd1-a4af-091def7f3f3f",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.19",
+		"ReferenceID": "F00, F01, F02, F03",
+		"DataType": "numeric",
+		"Variable": "Dementia",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "الخرف",
+		"QuestionTextEnglish": "Dementia",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "f2982d20-6b7c-4184-bf47-bd40e18c6c04",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 50,
+		"CategoryAbbreviation": "FPD",
+		"CategoryName": "Functional profile and disability ",
+		"CategoryDescription": "In this category, general questions on functional status and disability are posed. If some limitations in performing daily activities are retrieved, additional and more detailed questions on the activities of daily living are raised.",
+		"QuestionID": "FPD005.00.04",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Autonomy in moving",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "يتحرك داخل وخارج السرير أو الكرسي بدون مساعدة. مساعدات النقل الميكانيكية مقبولة",
+		"QuestionTextEnglish": "Moves in and out of bed or chair unassisted. Machanical transfer aide are acceptable",
+		"ResponseArabic": [
+			{
+				"Response": "1 = غير قادر على القيام بالأنشطة"
+			},
+			{
+				"Response": "2 = قادر على العمل بوجود مساعدة أو إشراف من شخص آخر"
+			},
+			{
+				"Response": "3 = قادر على القيام بالأنشطة على نحو مستقل"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = Unable to do"
+			},
+			{
+				"Response": "2 = Able to do with help or supervision from another person"
+			},
+			{
+				"Response": "3 = Able to do independent"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "f03b6626-4a91-4794-8454-82c9bf42fb04",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.12",
+		"ReferenceID": "I73",
+		"DataType": "numeric",
+		"Variable": "Peripheral arterial disease or Aortic Plaque",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "مرض الشرايين المحيطية أو التصلب العصيدي",
+		"QuestionTextEnglish": "Peripheral arterial disease (PAD) or Aortic Plaque",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "ee57da89-c989-4dbc-8287-a2c5881fbc4d",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 70,
+		"CategoryAbbreviation": "MHS",
+		"CategoryName": "Mental Health Status",
+		"CategoryDescription": "In this section the patient is asked questions about his mental health status and mood.",
+		"QuestionID": "MHS005.00.09",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Depression 11",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "هل تفضل البقاء في المنزل على الخروج والقيام بأشياء جديدة؟",
+		"QuestionTextEnglish": "Do you prefer to stay at home, rather than going out and doing new things?",
+		"ResponseArabic": [
+			{
+				"Response": "1 = لا على الإطلاق"
+			},
+			{
+				"Response": "2 = عدة أيام"
+			},
+			{
+				"Response": "3 = أكثر من نصف الأيام"
+			},
+			{
+				"Response": "4 = كل يوم تقريبًا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = not at all"
+			},
+			{
+				"Response": "2 = several days"
+			},
+			{
+				"Response": "3 = more than half the days"
+			},
+			{
+				"Response": "4 = nearly every day"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "e7e98d21-b39a-4d60-9cdd-7ad420531a4e",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 60,
+		"CategoryAbbreviation": "FRS",
+		"CategoryName": "Family Risk Score",
+		"CategoryDescription": "In this section, the presence of familiarity with diseases of concern is investigated through a specific set of questions.",
+		"QuestionID": "FRS001.00.01",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Family History of Diseases",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": " هل يمكث مع المريض  فرد من الأسرة من الدرجة الأولى (أم ، أب ، أخت ، أخ) لديه تاريخ من مرض السكري او  إقفار عضلة القلب  ، أو السكتة الدماغية أو القولون أو سرطان الثديقبل بلوغ سن الستين عاما؟",
+		"QuestionTextEnglish": "Does the patient have a 1st-degree family member (mother, father, sister, brother) with a history of DM, IHD before age of 60 years old, Stroke, Colon, or Breast cancer?  ",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "Yes: if \"No family history of DM, IHD before age 60, Stroke, Colon, or Breast Cancer,\" go to \"MHS001.00.01\"",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "e4a6bf9f-36cc-424b-8526-2494408964dc",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 60,
+		"CategoryAbbreviation": "FRS",
+		"CategoryName": "Family Risk Score",
+		"CategoryDescription": "In this section, the presence of familiarity with diseases of concern is investigated through a specific set of questions.",
+		"QuestionID": "FRS002.00.04",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Family History of Colon Cancer ",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "التاريخ العائلي لسرطان القولون",
+		"QuestionTextEnglish": "Family History of Colon Cancer ",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "e3b1776d-3017-46dd-97d9-13da6baea90f",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.43",
+		"ReferenceID": "K21",
+		"DataType": "numeric",
+		"Variable": "Gatroesophageal reflux disease",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "داء الارتداد المعدي المريئي",
+		"QuestionTextEnglish": "Gatroesophageal reflux disease (GERD)",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "dd96abb1-325b-47bf-88aa-c085fc473680",
+		"createdAt": "1674665938890",
+		"updatedAt": "1674665938890",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 50,
+		"CategoryAbbreviation": "FPD",
+		"CategoryName": "Functional profile and disability ",
+		"CategoryDescription": "In this category, general questions on functional status and disability are posed. If some limitations in performing daily activities are retrieved, additional and more detailed questions on the activities of daily living are raised.",
+		"QuestionID": "FPD004.00.01",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Activities of Daily Living",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "هل لديك أي مشاكل صحية تتطلب منك الحد من الانشطة التالية: تناول الطعام ، ارتداء الملابس، العناية الشخصية ،الاستحمام ،  المشي ، واستخدام المرحاض؟",
+		"QuestionTextEnglish": "Do you have any health problems that require you to limit your activities  in eating, getting dresses, grooming, bathing, walking, toileting (ADL)?",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "Yes, If \"No\" then move to Question \"FPD006.00.01\"",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "dd340c13-7420-4ac9-9270-da7f81aaae41",
+		"createdAt": "1674665938890",
+		"updatedAt": "1674665938890",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.34",
+		"ReferenceID": "D50, D51, D52",
+		"DataType": "numeric",
+		"Variable": "Anaemia and haematinic deficiency",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "فقر الدم / فقر الدم بعوز الحديد",
+		"QuestionTextEnglish": "Anaemia and haematinic deficiency",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "dc38a2f6-6c46-4e16-87d1-71df11ff8d98",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 70,
+		"CategoryAbbreviation": "MHS",
+		"CategoryName": "Mental Health Status",
+		"CategoryDescription": "In this section the patient is asked questions about his mental health status and mood.",
+		"QuestionID": "MHS005.00.04",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Depression 6",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "هل تشعر بالملل في كثير من الأحيان؟",
+		"QuestionTextEnglish": "Do you often get bored?",
+		"ResponseArabic": [
+			{
+				"Response": "1 = لا على الإطلاق"
+			},
+			{
+				"Response": "2 = عدة أيام"
+			},
+			{
+				"Response": "3 = أكثر من نصف الأيام"
+			},
+			{
+				"Response": "4 = كل يوم تقريبًا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = not at all"
+			},
+			{
+				"Response": "2 = several days"
+			},
+			{
+				"Response": "3 = more than half the days"
+			},
+			{
+				"Response": "4 = nearly every day"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "db79f15c-2211-473a-a591-c4a042507e9a",
+		"createdAt": "1674665938890",
+		"updatedAt": "1674665938890",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 70,
+		"CategoryAbbreviation": "MHS",
+		"CategoryName": "Mental Health Status",
+		"CategoryDescription": "In this section the patient is asked questions about his mental health status and mood.",
+		"QuestionID": "MHS005.00.15",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Depression 17",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "هل تعتقد أن معظم الناس أفضل منك؟",
+		"QuestionTextEnglish": "Do you think that most people are better of than you are?",
+		"ResponseArabic": [
+			{
+				"Response": "1 = لا على الإطلاق"
+			},
+			{
+				"Response": "2 = عدة أيام"
+			},
+			{
+				"Response": "3 = أكثر من نصف الأيام"
+			},
+			{
+				"Response": "4 = كل يوم تقريبًا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = not at all"
+			},
+			{
+				"Response": "2 = several days"
+			},
+			{
+				"Response": "3 = more than half the days"
+			},
+			{
+				"Response": "4 = nearly every day"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "d2e44da8-0ccb-4e7f-bfa2-eeb05336b2e7",
+		"createdAt": "1674665938890",
+		"updatedAt": "1674665938890",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 50,
+		"CategoryAbbreviation": "FPD",
+		"CategoryName": "Functional profile and disability ",
+		"CategoryDescription": "In this category, general questions on functional status and disability are posed. If some limitations in performing daily activities are retrieved, additional and more detailed questions on the activities of daily living are raised.",
+		"QuestionID": "FPD005.00.01",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Autonomy in bathing",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": " يستحم بشكل فردي أو يحتاج إلى مساعدة في الاستحمام لجزء واحد فقط من الجسم مثل الظهر أو المنطقة التناسلية أو الأطراف  ذات الاعاقة",
+		"QuestionTextEnglish": "Bathes self completely or needs help in bathing only a single part of the body such as the back, genital area or disabled extremity",
+		"ResponseArabic": [
+			{
+				"Response": "1 = غير قادر على القيام بالأنشطة"
+			},
+			{
+				"Response": "2 = قادر على العمل بوجود مساعدة أو إشراف من شخص آخر"
+			},
+			{
+				"Response": "3 = قادر على القيام بالأنشطة على نحو مستقل"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = Unable to do"
+			},
+			{
+				"Response": "2 = Able to do with help or supervision from another person"
+			},
+			{
+				"Response": "3 = Able to do independent"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "d246a75a-cb9d-42d3-b77d-a39163f282cf",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 70,
+		"CategoryAbbreviation": "MHS",
+		"CategoryName": "Mental Health Status",
+		"CategoryDescription": "In this section the patient is asked questions about his mental health status and mood.",
+		"QuestionID": "MHS004.00.01",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Depression 1",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "الاكتئاب: \"على مدار الأسبوعين الماضيين ، كم مرة كنت شعرت بالازعاج بسبب قلة الاهتمام أو فقدت المتعة في القيام بالأشياء؟\"",
+		"QuestionTextEnglish": "Depression:\"Over the last 2 WEEKS, how often have you been bothered by little interest or pleasure in doing things?\"",
+		"ResponseArabic": [
+			{
+				"Response": "1 = لا على الإطلاق"
+			},
+			{
+				"Response": "2 = عدة أيام"
+			},
+			{
+				"Response": "3 = أكثر من نصف الأيام"
+			},
+			{
+				"Response": "4 = كل يوم تقريبًا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = not at all"
+			},
+			{
+				"Response": "2 = several days"
+			},
+			{
+				"Response": "3 = more than half the days"
+			},
+			{
+				"Response": "4 = nearly every day"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "See MHS004.00.02",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "cffe596b-a859-41e1-a160-27d59b6d0f75",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 30,
+		"CategoryAbbreviation": "BMT",
+		"CategoryName": "Biometrics",
+		"CategoryDescription": "In this section, biometrics are recorded: blood pressure, height, weight, and BMI. In addition, if present, ongoing pregnancy is flagged to exclude biases in the BMI calculation.",
+		"QuestionID": "BMT003.00.01",
+		"ReferenceID": "AD001",
+		"DataType": "numeric",
+		"Variable": "Height 1",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Registration Core",
+		"QuestionTextArabic": "الطول",
+		"QuestionTextEnglish": "Height",
+		"ResponseArabic": {
+			"Response": "",
+			"Placeholder": "___ سم (الحد الأقصى لحجم الحقل ، 5 ؛ نوع التنسيق ، NNN.N)"
+		},
+		"ResponseEnglish": {
+			"Response": "",
+			"Placeholder": "___ cm (Maximum field size, 5; format type, NNN.N)"
+		},
+		"ResponseType": "textbox",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "cee46e44-1331-40f9-87d6-50c3ccb7ac4d",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.09",
+		"ReferenceID": "I24, I25",
+		"DataType": "numeric",
+		"Variable": "Ischemic Heart Disease without myocardial infarction",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": " نقص تروية القلب دون احتشاء عضلة القلب (على سبيل المثال ، الذبحة الصدرية)",
+		"QuestionTextEnglish": "Ischemic Heart Disease without myocardial infarction (IHD not MI, eg., Angina)",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "ce554e77-06b0-44b3-81de-598f321d5836",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 70,
+		"CategoryAbbreviation": "MHS",
+		"CategoryName": "Mental Health Status",
+		"CategoryDescription": "In this section the patient is asked questions about his mental health status and mood.",
+		"QuestionID": "MHS005.00.03",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Depression 5",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "هل تشعر أن حياتك بلا هدف؟",
+		"QuestionTextEnglish": "Do you feel that your life is empty?",
+		"ResponseArabic": [
+			{
+				"Response": "1 = لا على الإطلاق"
+			},
+			{
+				"Response": "2 = عدة أيام"
+			},
+			{
+				"Response": "3 = أكثر من نصف الأيام"
+			},
+			{
+				"Response": "4 = كل يوم تقريبًا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = not at all"
+			},
+			{
+				"Response": "2 = several days"
+			},
+			{
+				"Response": "3 = more than half the days"
+			},
+			{
+				"Response": "4 = nearly every day"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "ce34775c-8762-4a3b-be0a-371081029725",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 50,
+		"CategoryAbbreviation": "FPD",
+		"CategoryName": "Functional profile and disability ",
+		"CategoryDescription": "In this category, general questions on functional status and disability are posed. If some limitations in performing daily activities are retrieved, additional and more detailed questions on the activities of daily living are raised.",
+		"QuestionID": "FPD007.00.02",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Ability to walk inside",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "القدرة على المشي بالداخل",
+		"QuestionTextEnglish": "Ability to walk inside",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم, على نحو مستقل "
+			},
+			{
+				"Response": "2 = نعم ، يحتاج لمساعدة"
+			},
+			{
+				"Response": "3 = لا شئ"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = Yes, independent"
+			},
+			{
+				"Response": "2 = Yes, assisted"
+			},
+			{
+				"Response": "3 = None"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "cd565304-e531-40ef-9d74-a394c899d651",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.08",
+		"ReferenceID": "I21",
+		"DataType": "numeric",
+		"Variable": "Myocardial Infarction",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Registration Core",
+		"QuestionTextArabic": "احتشاء عضلة القلب ",
+		"QuestionTextEnglish": "Myocardial Infarction (MI)",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "cd18cf77-291f-4619-ac39-21ea800753fc",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 70,
+		"CategoryAbbreviation": "MHS",
+		"CategoryName": "Mental Health Status",
+		"CategoryDescription": "In this section the patient is asked questions about his mental health status and mood.",
+		"QuestionID": "MHS008.00.01",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Behavioral attitude",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "الموقف من التغيير السلوكي: \"بالتفكير في السلوكيات الصحية ، ما المقدار الذي تريده من 0 (الحد الأدنى) إلى 5 (الحد الأقصى) لإجراء بعض التغييرات الصغيرة في نمط الحياة لتحسين صحتك؟",
+		"QuestionTextEnglish": "Attitude to behavioral change: \"Thinking about healthy behaviors, how much from 0 (minimum) to 5 (maximum) do you want to make some small lifestyle changes to improve your health?\"",
+		"ResponseArabic": [
+			{
+				"Response": "0"
+			},
+			{
+				"Response": "1"
+			},
+			{
+				"Response": "2"
+			},
+			{
+				"Response": "3"
+			},
+			{
+				"Response": "4"
+			},
+			{
+				"Response": "5"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "0"
+			},
+			{
+				"Response": "1"
+			},
+			{
+				"Response": "2"
+			},
+			{
+				"Response": "3"
+			},
+			{
+				"Response": "4"
+			},
+			{
+				"Response": "5"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "c98eec76-3a3a-496f-8500-9ac11c7bd281",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.23",
+		"ReferenceID": "M05, M06",
+		"DataType": "numeric",
+		"Variable": "Rheumatoid arthritis",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "التهاب المفاصل الروماتويدي",
+		"QuestionTextEnglish": "Rheumatoid arthritis (RA)",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "c767a417-ae10-4c31-a12d-fc77a829a55d",
+		"createdAt": "1674665938890",
+		"updatedAt": "1674665938890",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.21",
+		"ReferenceID": "E01, E02, E03, E04, E05, E06, E07",
+		"DataType": "numeric",
+		"Variable": "Thyroid Disease",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "مرض الغدة الدرقية",
+		"QuestionTextEnglish": "Thyroid Disease",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "c58d44c3-aed4-4428-8356-4f792fffb296",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 30,
+		"CategoryAbbreviation": "BMT",
+		"CategoryName": "Biometrics",
+		"CategoryDescription": "In this section, biometrics are recorded: blood pressure, height, weight, and BMI. In addition, if present, ongoing pregnancy is flagged to exclude biases in the BMI calculation.",
+		"QuestionID": "BMT005.00.01",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Waist Circumference 1",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "محيط الخصر",
+		"QuestionTextEnglish": "Waist circumference",
+		"ResponseArabic": {
+			"Response": "",
+			"Placeholder": "___ سم النطاق( 10-3000 سم)"
+		},
+		"ResponseEnglish": {
+			"Response": "",
+			"Placeholder": "___ cm (range: 10-3000 cm)"
+		},
+		"ResponseType": "textbox",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "c2418eb3-42a4-4b0f-8c04-6bee27137e15",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 20,
+		"CategoryAbbreviation": "DAG",
+		"CategoryName": "Demographics and Registration",
+		"CategoryDescription": "Demographic and registration information is provided. It includes unmodifiable risk factors (age and gender) and social determinants of health that can be combined to assess the Social Deprivation Index.",
+		"QuestionID": "DAG004.00.02",
+		"ReferenceID": "AA008",
+		"DataType": "alphanumeric",
+		"Variable": "City",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Registration Core",
+		"QuestionTextArabic": "المدينة",
+		"QuestionTextEnglish": "City",
+		"ResponseArabic": {
+			"Response": "",
+			"Placeholder": "(استمارة البريد السعودي)"
+		},
+		"ResponseEnglish": {
+			"Response": "",
+			"Placeholder": "(Saudi Post Format)"
+		},
+		"ResponseType": "textbox",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": "The city of residence of the individual",
+		"Lang": null
+	},
+	{
+		"id": "b5bc11b4-201c-40ce-80b0-b189736f7812",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 70,
+		"CategoryAbbreviation": "MHS",
+		"CategoryName": "Mental Health Status",
+		"CategoryDescription": "In this section the patient is asked questions about his mental health status and mood.",
+		"QuestionID": "MHS005.00.11",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Depression 13",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": " هل تعتقد أنه من الرائع أنك تعيش في الوقت الحالي  ؟ ",
+		"QuestionTextEnglish": "Do you think it is wonderful to be alive now?",
+		"ResponseArabic": [
+			{
+				"Response": "1 = لا على الإطلاق"
+			},
+			{
+				"Response": "2 = عدة أيام"
+			},
+			{
+				"Response": "3 = أكثر من نصف الأيام"
+			},
+			{
+				"Response": "4 = كل يوم تقريبًا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = not at all"
+			},
+			{
+				"Response": "2 = several days"
+			},
+			{
+				"Response": "3 = more than half the days"
+			},
+			{
+				"Response": "4 = nearly every day"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "b4dbd783-a2f5-4911-8c07-5c6f3713f66a",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 20,
+		"CategoryAbbreviation": "DAG",
+		"CategoryName": "Demographics and Registration",
+		"CategoryDescription": "Demographic and registration information is provided. It includes unmodifiable risk factors (age and gender) and social determinants of health that can be combined to assess the Social Deprivation Index.",
+		"QuestionID": "DAG001.00.02",
+		"ReferenceID": "AA001",
+		"DataType": "alphab",
+		"Variable": "Name",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Registration Core",
+		"QuestionTextArabic": "الاسم",
+		"QuestionTextEnglish": "Name",
+		"ResponseArabic": {
+			"Response": "",
+			"Placeholder": "(الحد الأقصى لحجم الحقل ، 80)"
+		},
+		"ResponseEnglish": {
+			"Response": "",
+			"Placeholder": "(Maximum field size, 80)"
+		},
+		"ResponseType": "textbox",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "b48f9750-a95a-45c7-b7be-db9672c439be",
+		"createdAt": "1674665938890",
+		"updatedAt": "1674665938890",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 50,
+		"CategoryAbbreviation": "FPD",
+		"CategoryName": "Functional profile and disability ",
+		"CategoryDescription": "In this category, general questions on functional status and disability are posed. If some limitations in performing daily activities are retrieved, additional and more detailed questions on the activities of daily living are raised.",
+		"QuestionID": "FPD001.00.01",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Impaired Communication",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "وجود اتصال ضعيف (أقل من الحدود العادية)",
+		"QuestionTextEnglish": "Presence of impaired communication (below normal limits)",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": "",
+		"Lang": null
+	},
+	{
+		"id": "b45c061e-25b3-4a46-aecd-c00b575753d7",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.41",
+		"ReferenceID": "K25, K26, K27, K28",
+		"DataType": "numeric",
+		"Variable": "Peptic Ulcer Disease",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": " القرحة الهضمية",
+		"QuestionTextEnglish": "Peptic Ulcer Disease",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "b275b43e-34df-4969-b82b-2d2400c42ef7",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.39",
+		"ReferenceID": "B16, B18.0, B18.1",
+		"DataType": "numeric",
+		"Variable": "Hepatitis B",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "التهاب الكبد ب",
+		"QuestionTextEnglish": "Hepatitis B",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "b12cd4f2-ccc6-448f-b90d-5d4ba3457403",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 20,
+		"CategoryAbbreviation": "DAG",
+		"CategoryName": "Demographics and Registration",
+		"CategoryDescription": "Demographic and registration information is provided. It includes unmodifiable risk factors (age and gender) and social determinants of health that can be combined to assess the Social Deprivation Index.",
+		"QuestionID": "DAG001.00.01",
+		"ReferenceID": "AA002",
+		"DataType": "alphanumeric",
+		"Variable": "National ID",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Registration Core",
+		"QuestionTextArabic": "الهوية الوطنية",
+		"QuestionTextEnglish": "National ID",
+		"ResponseArabic": {
+			"Response": "",
+			"Placeholder": " (بحد أقصى 10 أرقام)الرقم القومي أو رقم الإقامة  "
+		},
+		"ResponseEnglish": {
+			"Response": "",
+			"Placeholder": "National ID or Igamah number (Maximum 10 digits)"
+		},
+		"ResponseType": "textbox",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "afb2595b-cd08-4afb-ae3a-95b704725342",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.03",
+		"ReferenceID": "E10",
+		"DataType": "numeric",
+		"Variable": "Diabetes Mellitus type 1",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "السكري من النوع الأول",
+		"QuestionTextEnglish": "Diabetes Mellitus (DM) type 1;",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "Yes, if \"2 = No,\" then skip to \"MCP002.00.05\"",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "af8cf1b4-aca0-499c-be6e-d493275b664e",
+		"createdAt": "1674665938890",
+		"updatedAt": "1674665938890",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 30,
+		"CategoryAbbreviation": "BMT",
+		"CategoryName": "Biometrics",
+		"CategoryDescription": "In this section, biometrics are recorded: blood pressure, height, weight, and BMI. In addition, if present, ongoing pregnancy is flagged to exclude biases in the BMI calculation.",
+		"QuestionID": "BMT001.00.02",
+		"ReferenceID": "na",
+		"DataType": "datetime",
+		"Variable": "Systolic Blood Pressure 2",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "تاريخ القياس",
+		"QuestionTextEnglish": "Date of measurement",
+		"ResponseArabic": {
+			"Response": "",
+			"Placeholder": "الميلادي (يوم/شهر/سنة)"
+		},
+		"ResponseEnglish": {
+			"Response": "",
+			"Placeholder": "Gregorian (DDMMYYYY)"
+		},
+		"ResponseType": "ddmmyyyy",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "acd8b0b9-e4d1-4488-baed-8c006c86bb39",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 30,
+		"CategoryAbbreviation": "BMT",
+		"CategoryName": "Biometrics",
+		"CategoryDescription": "In this section, biometrics are recorded: blood pressure, height, weight, and BMI. In addition, if present, ongoing pregnancy is flagged to exclude biases in the BMI calculation.",
+		"QuestionID": "BMT004.00.01",
+		"ReferenceID": "AD002",
+		"DataType": "numeric",
+		"Variable": "Weight 1",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Registration Core",
+		"QuestionTextArabic": "الوزن",
+		"QuestionTextEnglish": "Weight",
+		"ResponseArabic": {
+			"Response": "",
+			"Placeholder": "___ كجم (الحد الأقصى لحجم الحقل ، 5 ؛ نوع التنسيق ، NNN.N)"
+		},
+		"ResponseEnglish": {
+			"Response": "",
+			"Placeholder": "___ Kg (Maximum field size, 5; format type, NNN.N)"
+		},
+		"ResponseType": "textbox",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "aa48ff22-7d56-4ff3-8eff-2b014da47f7c",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.35",
+		"ReferenceID": "J45",
+		"DataType": "numeric",
+		"Variable": "Asthma",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "الربو ",
+		"QuestionTextEnglish": "Asthma (AST)",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "a8f1b390-a8fa-419a-9ca6-7e3d8f62041a",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 60,
+		"CategoryAbbreviation": "FRS",
+		"CategoryName": "Family Risk Score",
+		"CategoryDescription": "In this section, the presence of familiarity with diseases of concern is investigated through a specific set of questions.",
+		"QuestionID": "FRS002.00.02",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Family History of Ischemic Heart disease",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "التاريخ العائلي لمرض نقص تروية القلب قبل سن الستين",
+		"QuestionTextEnglish": "Family History of Ischemic Heart disease before age of 60 years old ",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "a8bf0a0a-5136-4df5-85a1-03604e25e4f3",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 50,
+		"CategoryAbbreviation": "FPD",
+		"CategoryName": "Functional profile and disability ",
+		"CategoryDescription": "In this category, general questions on functional status and disability are posed. If some limitations in performing daily activities are retrieved, additional and more detailed questions on the activities of daily living are raised.",
+		"QuestionID": "FPD005.00.02",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Autonomy in clothing",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": " يستطيع الحصول على الملابس من الخزائن والأدراج وارتداء الملابس كاملة مع السحابات. قد يحتاج لمساعدة لربط الحذاء",
+		"QuestionTextEnglish": "Get clothes from closets and drawers and puts on clothes and outer garments complete with fasteners. May have help tying shoes.",
+		"ResponseArabic": [
+			{
+				"Response": "1 = غير قادر على القيام بالأنشطة"
+			},
+			{
+				"Response": "2 = قادر على العمل بوجود مساعدة أو إشراف من شخص آخر"
+			},
+			{
+				"Response": "3 = قادر على القيام بالأنشطة على نحو مستقل"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = Unable to do"
+			},
+			{
+				"Response": "2 = Able to do with help or supervision from another person"
+			},
+			{
+				"Response": "3 = Able to do independent"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "a6487d9e-f0c4-44ec-821f-32aa4627a9b9",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 50,
+		"CategoryAbbreviation": "FPD",
+		"CategoryName": "Functional profile and disability ",
+		"CategoryDescription": "In this category, general questions on functional status and disability are posed. If some limitations in performing daily activities are retrieved, additional and more detailed questions on the activities of daily living are raised.",
+		"QuestionID": "FPD005.00.05",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Autonomy in urination and defecation",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "يستطيع التحكم في البول والبراز",
+		"QuestionTextEnglish": "Exercises complete self-control over urination and defectation",
+		"ResponseArabic": [
+			{
+				"Response": "1 = غير قادر على القيام بالأنشطة"
+			},
+			{
+				"Response": "2 = قادر على العمل بوجود مساعدة أو إشراف من شخص آخر"
+			},
+			{
+				"Response": "3 = قادر على القيام بالأنشطة على نحو مستقل"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = Unable to do"
+			},
+			{
+				"Response": "2 = Able to do with help or supervision from another person"
+			},
+			{
+				"Response": "3 = Able to do independent"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "a12deb4e-aae8-4051-b6be-0dc64c99a365",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 20,
+		"CategoryAbbreviation": "DAG",
+		"CategoryName": "Demographics and Registration",
+		"CategoryDescription": "Demographic and registration information is provided. It includes unmodifiable risk factors (age and gender) and social determinants of health that can be combined to assess the Social Deprivation Index.",
+		"QuestionID": "DAG004.00.04",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Attributed PHCC",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Registration Core",
+		"QuestionTextArabic": "مؤسسة الرعاية الصحية التي ينتسب إليها",
+		"QuestionTextEnglish": "Attributed PHCC",
+		"ResponseArabic": {
+			"Response": "",
+			"Placeholder": "قائمة بمراكز الرعاية الصحية الأولية في كل منطقة"
+		},
+		"ResponseEnglish": {
+			"Response": "",
+			"Placeholder": "List of PHCs within every region"
+		},
+		"ResponseType": "dropdownlist",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": "Name of the Primary Health Care Center",
+		"Lang": null
+	},
+	{
+		"id": "9e864f3e-b869-4a0c-961c-c8b2c38864f7",
+		"createdAt": "1674665938890",
+		"updatedAt": "1674665938890",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 20,
+		"CategoryAbbreviation": "DAG",
+		"CategoryName": "Demographics and Registration",
+		"CategoryDescription": "Demographic and registration information is provided. It includes unmodifiable risk factors (age and gender) and social determinants of health that can be combined to assess the Social Deprivation Index.",
+		"QuestionID": "DAG004.00.05",
+		"ReferenceID": "AC001",
+		"DataType": "alphab",
+		"Variable": "Marital status",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Registration Core",
+		"QuestionTextArabic": "الحالة الإجتماعية",
+		"QuestionTextEnglish": "Marital Status",
+		"ResponseArabic": [
+			{
+				"Response": "أ = منفصل"
+			},
+			{
+				"Response": "د = مطلق"
+			},
+			{
+				"Response": "م = متزوج"
+			},
+			{
+				"Response": "س = مفرد"
+			},
+			{
+				"Response": "ي = غير معروف"
+			},
+			{
+				"Response": "و = أرمل"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "A = Separated"
+			},
+			{
+				"Response": "D = Divorced"
+			},
+			{
+				"Response": "M = Married"
+			},
+			{
+				"Response": "S = Single"
+			},
+			{
+				"Response": "U = Unknown"
+			},
+			{
+				"Response": "W = Widowed"
+			}
+		],
+		"ResponseType": "dropdownlist",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": "The current marital status of any adult individual]:",
+		"Lang": null
+	},
+	{
+		"id": "9e2e92b3-24b8-4ebc-88f7-6e9d2f96834e",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 70,
+		"CategoryAbbreviation": "MHS",
+		"CategoryName": "Mental Health Status",
+		"CategoryDescription": "In this section the patient is asked questions about his mental health status and mood.",
+		"QuestionID": "MHS005.00.12",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Depression 14",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "هل تشعر أنك عديم القيمة في الوقت الحالي؟",
+		"QuestionTextEnglish": "Do you feel pretty worthless the way you are now?",
+		"ResponseArabic": [
+			{
+				"Response": "1 = لا على الإطلاق"
+			},
+			{
+				"Response": "2 = عدة أيام"
+			},
+			{
+				"Response": "3 = أكثر من نصف الأيام"
+			},
+			{
+				"Response": "4 = كل يوم تقريبًا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = not at all"
+			},
+			{
+				"Response": "2 = several days"
+			},
+			{
+				"Response": "3 = more than half the days"
+			},
+			{
+				"Response": "4 = nearly every day"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "9df788a9-70d5-4055-9c10-cd649d0348de",
+		"createdAt": "1674665938890",
+		"updatedAt": "1674665938890",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.37",
+		"ReferenceID": "J00-J43, J46-J99",
+		"DataType": "numeric",
+		"Variable": "Any other respiratory disease",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "أمراض الجهاز  التنفسي الاخرى",
+		"QuestionTextEnglish": "Any other respiratory disease",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "9bc749bf-beb5-47e7-a1b0-b814a32b1410",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 50,
+		"CategoryAbbreviation": "FPD",
+		"CategoryName": "Functional profile and disability ",
+		"CategoryDescription": "In this category, general questions on functional status and disability are posed. If some limitations in performing daily activities are retrieved, additional and more detailed questions on the activities of daily living are raised.",
+		"QuestionID": "FPD007.00.03",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Walking difficulty",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "هل تستخدم عصا أو مشاية أو كرسي متحرك  بانتظام للتجول أو هل تواجه صعوبة في المشي؟",
+		"QuestionTextEnglish": "Do you regularly use a stick, walker or wheelchair to get around or do you have walking difficulty? ",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "textbox",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "9ba0b33b-0582-4909-ac68-5ffe2d6906e0",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 20,
+		"CategoryAbbreviation": "DAG",
+		"CategoryName": "Demographics and Registration",
+		"CategoryDescription": "Demographic and registration information is provided. It includes unmodifiable risk factors (age and gender) and social determinants of health that can be combined to assess the Social Deprivation Index.",
+		"QuestionID": "DAG004.00.06",
+		"ReferenceID": "AC003",
+		"DataType": "alphanumeric",
+		"Variable": "Employment",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Registration Core",
+		"QuestionTextArabic": "الحالة الوظيفية",
+		"QuestionTextEnglish": "Employment",
+		"ResponseArabic": [
+			{
+				"Response": "1 = موظف بالقطاع العام"
+			},
+			{
+				"Response": "11 = موظف حكومي (عسكري)."
+			},
+			{
+				"Response": "2 = موظف بالقطاع الخاص"
+			},
+			{
+				"Response": "3 = أعمال حرة"
+			},
+			{
+				"Response": "4 = متطوع - تعاوني"
+			},
+			{
+				"Response": "5 = طالب"
+			},
+			{
+				"Response": "6 = ربة منزل"
+			},
+			{
+				"Response": "7 = متقاعد"
+			},
+			{
+				"Response": "0 = عاطل عن العمل (يمكنه العمل)"
+			},
+			{
+				"Response": "00 = عاطل عن العمل (لا يمكنه العمل)"
+			},
+			{
+				"Response": "8 = أخرى (مع نص)"
+			},
+			{
+				"Response": "88 = غير معروف"
+			},
+			{
+				"Response": "99 = رفض الإجابة "
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1= Public Sector Employee "
+			},
+			{
+				"Response": "11= Government Employee (Military)"
+			},
+			{
+				"Response": "2= Private Sector Employee"
+			},
+			{
+				"Response": "3= Freelancer"
+			},
+			{
+				"Response": "4= Volunteer - Co-op"
+			},
+			{
+				"Response": "5= Student"
+			},
+			{
+				"Response": "6= Housewife"
+			},
+			{
+				"Response": "7= Retired"
+			},
+			{
+				"Response": "0= Unemployed (Can work)"
+			},
+			{
+				"Response": "00= Unemployed (Cannot work)"
+			},
+			{
+				"Response": "8= Other (With Text box)"
+			},
+			{
+				"Response": "88= Unknown"
+			},
+			{
+				"Response": "99= Refused to answer"
+			}
+		],
+		"ResponseType": "dropdownlist",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "993ad603-59aa-499a-928f-4653df057a6e",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.51",
+		"ReferenceID": "N18.3, N18.4, N18.5",
+		"DataType": "numeric",
+		"Variable": "Moderate to Severe Chronic kidney disease, stage 3 to 5",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "مرض الكلى المزمن المعتدل إلى الشديد ، المرحلة 3 إلى 5",
+		"QuestionTextEnglish": "Moderate to Severe Chronic kidney disease, stage 3 to 5 (CKD)",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "980fb282-6b17-4bd4-bb9d-34acf3d42c9e",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 30,
+		"CategoryAbbreviation": "BMT",
+		"CategoryName": "Biometrics",
+		"CategoryDescription": "In this section, biometrics are recorded: blood pressure, height, weight, and BMI. In addition, if present, ongoing pregnancy is flagged to exclude biases in the BMI calculation.",
+		"QuestionID": "BMT006.00.01",
+		"ReferenceID": "GC002",
+		"DataType": "numeric",
+		"Variable": "BMI",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "مؤشر كتلة الجسم",
+		"QuestionTextEnglish": "BMI",
+		"ResponseArabic": [
+			{
+				"Response": "1 = النحافة (مؤشر كتلة الجسم أقل من 18.5)"
+			},
+			{
+				"Response": "2 = وزن طبيعي - مثالي صحي (مؤشر كتلة الجسم 18.5-24.9)"
+			},
+			{
+				"Response": "3 = وزن زائد (مؤشر كتلة الجسم 25.0-29.9)"
+			},
+			{
+				"Response": "4 = سمنة من الدرجة الأولى - سمنة معتدلة (مؤشر كتلة الجسم 30.0-34.9)"
+			},
+			{
+				"Response": "5 = سمنة من الدرجة الثانية - سمنة شديدة (مؤشر كتلة الجسم 35.0-39.9)"
+			},
+			{
+				"Response": "6 = سمنة من الدرجة الثالثة - سمنة شديدة جدًا (مؤشر كتلة الجسم ≥ 40.0)"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = Underweight (BMI < 18.5)"
+			},
+			{
+				"Response": "2 = Normal weight - Ideal healthy (BMI 18.5-24.9)"
+			},
+			{
+				"Response": "3 = Overweight (BMI 25.0-29.9)"
+			},
+			{
+				"Response": "4 = Class I Obesity - Moderately Obese (BMI 30.0-34.9)"
+			},
+			{
+				"Response": "5 = Class II Obesity - Severely Obese (BMI 35.0-39.9)"
+			},
+			{
+				"Response": "6 = Class III Obesity - Very Severly Obese ( BMI ≥ 40.0)"
+			}
+		],
+		"ResponseType": "dropdownlist",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "977d281e-7be5-4c25-974f-28f39c917316",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 60,
+		"CategoryAbbreviation": "FRS",
+		"CategoryName": "Family Risk Score",
+		"CategoryDescription": "In this section, the presence of familiarity with diseases of concern is investigated through a specific set of questions.",
+		"QuestionID": "FRS002.00.05",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Family History of Breast Cancer ",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "التاريخ العائلي لسرطان الثدي",
+		"QuestionTextEnglish": "Family History of Breast Cancer ",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "9762cf99-6ba3-4aaa-95c7-b790bc0f787e",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 70,
+		"CategoryAbbreviation": "MHS",
+		"CategoryName": "Mental Health Status",
+		"CategoryDescription": "In this section the patient is asked questions about his mental health status and mood.",
+		"QuestionID": "MHS004.00.02",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Depression 2",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "الاكتئاب: \"على مدار الأسبوعين الماضيين ، كم مرة تضايقك من الشعور بالإحباط أو الاكتئاب أو اليأس؟\"",
+		"QuestionTextEnglish": "Depression:\"Over the last 2 WEEKS, how often have you been bothered by feeling down, depressed, or hopeless?\"",
+		"ResponseArabic": [
+			{
+				"Response": "1 = لا على الإطلاق"
+			},
+			{
+				"Response": "2 = عدة أيام"
+			},
+			{
+				"Response": "3 = أكثر من نصف الأيام"
+			},
+			{
+				"Response": "4 = كل يوم تقريبًا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = not at all"
+			},
+			{
+				"Response": "2 = several days"
+			},
+			{
+				"Response": "3 = more than half the days"
+			},
+			{
+				"Response": "4 = nearly every day"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "If the sum of the score of MHS004.00.01 and MHS004.00.02 is <3, then go to \"MHS006.00.01",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "96b072a5-0dc0-4b3c-8c4a-89728d99b239",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.54",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Any Health Condition not previously mentioned",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "أي حالة أخرى (قائمة البحث برموز التصنيف الدولي للأمراض-10) حدد من قائمة البحث:",
+		"QuestionTextEnglish": "Any other condition (look-up menu with ICD-10 codes)  Select from lookup menue:",
+		"ResponseArabic": {
+			"Response": "",
+			"Placeholder": "______ (3 أرقام / حروف أبجدية على الأقل ، )"
+		},
+		"ResponseEnglish": {
+			"Response": "",
+			"Placeholder": "______ (minimum 3 digits, alphanumeric)"
+		},
+		"ResponseType": "textbox",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "9656688f-0e1c-4f07-9e67-f640a80aa83b",
+		"createdAt": "1674665938890",
+		"updatedAt": "1674665938890",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.13",
+		"ReferenceID": "F52",
+		"DataType": "numeric",
+		"Variable": "Sexual Dysfunction or Erectile Dysfunction",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "العجز الجنسي على سبيل المثال الضعف الجنسي لدى الرجال",
+		"QuestionTextEnglish": "Sexual Dysfunction e.g. Erectile Dysfunction",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "9589ff52-44d6-497c-a2b1-4cd02125796b",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 70,
+		"CategoryAbbreviation": "MHS",
+		"CategoryName": "Mental Health Status",
+		"CategoryDescription": "In this section the patient is asked questions about his mental health status and mood.",
+		"QuestionID": "MHS007.00.01",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Daytime sleepiness",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "في الأيام السبعة الماضية ، كم مرة شعرت بالنعاس أثناء النهار؟",
+		"QuestionTextEnglish": "In the past 7 days, how often have you felt sleepy during the daytime?",
+		"ResponseArabic": [
+			{
+				"Response": "1 = أبدًا"
+			},
+			{
+				"Response": "2 = نادرًا"
+			},
+			{
+				"Response": "3 = في بعض الأحيان"
+			},
+			{
+				"Response": "4 = عادة"
+			},
+			{
+				"Response": "5 = دائما"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = Never"
+			},
+			{
+				"Response": "2 = Rarely"
+			},
+			{
+				"Response": "3 = Sometimes"
+			},
+			{
+				"Response": "4 = Usually"
+			},
+			{
+				"Response": "5 = Always"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "9527ebe6-3950-47db-b41c-d080da055d91",
+		"createdAt": "1674665938890",
+		"updatedAt": "1674665938890",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 10,
+		"CategoryAbbreviation": "IND",
+		"CategoryName": "Interviewer data",
+		"CategoryDescription": "In this section, interviewer data and interview date are recorded for accountability.",
+		"QuestionID": "IND002.00.01",
+		"ReferenceID": "na",
+		"DataType": "alphanumeric",
+		"Variable": "Interviewer Professional ID",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "رقم التصنيف المهني في الهيئة السعودية للتخصصات الصحية (SCFHS) ",
+		"QuestionTextEnglish": "Interviewer Professional (SCFHS) ID#",
+		"ResponseArabic": {
+			"Response": ""
+		},
+		"ResponseEnglish": {
+			"Response": ""
+		},
+		"ResponseType": "textbox",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "951fa2a1-06f3-49e7-b6c3-b49c31e73172",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.18",
+		"ReferenceID": "G81",
+		"DataType": "numeric",
+		"Variable": "Hemiplegia",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "الشلل النصفي",
+		"QuestionTextEnglish": "Hemiplegia",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "9492856c-322e-4e71-91ad-cd48e5459bec",
+		"createdAt": "1674665938890",
+		"updatedAt": "1674665938890",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 50,
+		"CategoryAbbreviation": "FPD",
+		"CategoryName": "Functional profile and disability ",
+		"CategoryDescription": "In this category, general questions on functional status and disability are posed. If some limitations in performing daily activities are retrieved, additional and more detailed questions on the activities of daily living are raised.",
+		"QuestionID": "FPD006.00.01",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "IADL",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": " هل لديك أي مشاكل صحية تتطلب منك الحد من أنشطتك في غسيل الملابس ، التدبير المنزلي، الخدمات المصرفية ، التسوق، استخدام الهاتف، اعداد الطعام، استخدام وسائل النقل، ناول الأدوية ، أو غيرها؟",
+		"QuestionTextEnglish": "Do you have any health problems that require you to limit your activities  in laundrying, housekeeping, banking, shopping, using the telephone, preparing food, using transportation, taking medications, or others (IADL)?",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "940d8274-29c0-438f-a950-cbef245f3445",
+		"createdAt": "1674665938890",
+		"updatedAt": "1674665938890",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 20,
+		"CategoryAbbreviation": "DAG",
+		"CategoryName": "Demographics and Registration",
+		"CategoryDescription": "Demographic and registration information is provided. It includes unmodifiable risk factors (age and gender) and social determinants of health that can be combined to assess the Social Deprivation Index.",
+		"QuestionID": "DAG002.00.02",
+		"ReferenceID": "AB004",
+		"DataType": "datetime",
+		"Variable": "Date of birth (Gregorian)",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Registration Core",
+		"QuestionTextArabic": "[تاريخ الميلاد]",
+		"QuestionTextEnglish": "[Date of birth]",
+		"ResponseArabic": {
+			"Response": "",
+			"Placeholder": "ميلادي (يوم/شهر/سنة، الحد الأقصى لحجم الحقل ، 8)"
+		},
+		"ResponseEnglish": {
+			"Response": "",
+			"Placeholder": "Gregorian (DDMMYYYY; Maximum field size, 8)"
+		},
+		"ResponseType": "ddmmyyyy",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "9097a992-4388-42f1-b67e-b14b4219bd26",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 70,
+		"CategoryAbbreviation": "MHS",
+		"CategoryName": "Mental Health Status",
+		"CategoryDescription": "In this section the patient is asked questions about his mental health status and mood.",
+		"QuestionID": "MHS005.00.14",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Depression 16",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "هل تشعر أن وضعك ميؤوس منه؟",
+		"QuestionTextEnglish": "Do you feel that your situation is hopeless?",
+		"ResponseArabic": [
+			{
+				"Response": "1 = لا على الإطلاق"
+			},
+			{
+				"Response": "2 = عدة أيام"
+			},
+			{
+				"Response": "3 = أكثر من نصف الأيام"
+			},
+			{
+				"Response": "4 = كل يوم تقريبًا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = not at all"
+			},
+			{
+				"Response": "2 = several days"
+			},
+			{
+				"Response": "3 = more than half the days"
+			},
+			{
+				"Response": "4 = nearly every day"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "8c99285b-83cf-4d68-a844-9155a6b062fb",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 10,
+		"CategoryAbbreviation": "IND",
+		"CategoryName": "Interviewer data",
+		"CategoryDescription": "In this section, interviewer data and interview date are recorded for accountability.",
+		"QuestionID": "IND001.00.01",
+		"ReferenceID": "na",
+		"DataType": "alphab",
+		"Variable": "Interviewer position",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "وظيفة المحاور",
+		"QuestionTextEnglish": "Interviewer Position",
+		"ResponseArabic": {
+			"Response": ""
+		},
+		"ResponseEnglish": {
+			"Response": ""
+		},
+		"ResponseType": "textbox",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "8afe5577-36b4-4c22-b623-fbcea31ca8af",
+		"createdAt": "1674665938890",
+		"updatedAt": "1674665938890",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.38",
+		"ReferenceID": "A15-A19",
+		"DataType": "numeric",
+		"Variable": "Tuberculosis",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "الدرن",
+		"QuestionTextEnglish": "Tuberculosis",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "8a1f5348-ca7d-4e47-958f-edc385038f3d",
+		"createdAt": "1674665938890",
+		"updatedAt": "1674665938890",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 30,
+		"CategoryAbbreviation": "BMT",
+		"CategoryName": "Biometrics",
+		"CategoryDescription": "In this section, biometrics are recorded: blood pressure, height, weight, and BMI. In addition, if present, ongoing pregnancy is flagged to exclude biases in the BMI calculation.",
+		"QuestionID": "BMT001.00.01",
+		"ReferenceID": "CF004",
+		"DataType": "numeric",
+		"Variable": "Systolic Blood Pressure 1",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "ضغط دم انقباضي",
+		"QuestionTextEnglish": "Systolic Blood Pressure",
+		"ResponseArabic": {
+			"Response": "",
+			"Placeholder": "___ مم زئبق (النطاق: 10-999 مم زئبق)"
+		},
+		"ResponseEnglish": {
+			"Response": "",
+			"Placeholder": "___ mmHg (range: 10-999 mmHg)"
+		},
+		"ResponseType": "textbox",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "895ba04d-5058-4c1a-9d9c-2e041aeb915f",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.45",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Solid Tumor extension",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "كيف يتم السيطرة على الورم؟",
+		"QuestionTextEnglish": "How is the tumor controlled?",
+		"ResponseArabic": [
+			{
+				"Response": "1 = بمكان محدد"
+			},
+			{
+				"Response": "2 = منتشر"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = localized"
+			},
+			{
+				"Response": "2 = metastasized"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "8717167b-7071-438c-bafc-13326aabc020",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 50,
+		"CategoryAbbreviation": "FPD",
+		"CategoryName": "Functional profile and disability ",
+		"CategoryDescription": "In this category, general questions on functional status and disability are posed. If some limitations in performing daily activities are retrieved, additional and more detailed questions on the activities of daily living are raised.",
+		"QuestionID": "FPD009.00.01",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Need for assistance",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "هل تحتاج إلى شخص ما لمساعدتك بشكل منتظم؟",
+		"QuestionTextEnglish": "Do you need someone to help you on a regular basis?",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "textbox",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "83972a1a-0e3f-441e-9b22-69176eb5af2b",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 30,
+		"CategoryAbbreviation": "BMT",
+		"CategoryName": "Biometrics",
+		"CategoryDescription": "In this section, biometrics are recorded: blood pressure, height, weight, and BMI. In addition, if present, ongoing pregnancy is flagged to exclude biases in the BMI calculation.",
+		"QuestionID": "BMT002.00.02",
+		"ReferenceID": "na",
+		"DataType": "datetime",
+		"Variable": "Diastolic Blood Pressure 2",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "تاريخ القياس",
+		"QuestionTextEnglish": "Date of measurement",
+		"ResponseArabic": {
+			"Response": "",
+			"Placeholder": "الميلادي (يوم/شهر/سنة)"
+		},
+		"ResponseEnglish": {
+			"Response": "",
+			"Placeholder": "Gregorian (DDMMYYYY)"
+		},
+		"ResponseType": "ddmmyyyy",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "834dae83-8226-4574-aea4-6352b6cd3467",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 20,
+		"CategoryAbbreviation": "DAG",
+		"CategoryName": "Demographics and Registration",
+		"CategoryDescription": "Demographic and registration information is provided. It includes unmodifiable risk factors (age and gender) and social determinants of health that can be combined to assess the Social Deprivation Index.",
+		"QuestionID": "DAG004.00.07",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Household income",
+		"InterviewModule": "Family",
+		"ContentType": "Family's Core",
+		"QuestionTextArabic": "الدخل الشهري للعائلة",
+		"QuestionTextEnglish": "Household Monthly Income",
+		"ResponseArabic": {
+			"Response": "",
+			"Placeholder": "(الرقم ، ريال سعودي ، "
+		},
+		"ResponseEnglish": {
+			"Response": "",
+			"Placeholder": "(Number, Saudi Arabian Ryial, SAR)"
+		},
+		"ResponseType": "textbox",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": "The average monthly income per household in Saudi Arabian Ryial",
+		"Lang": null
+	},
+	{
+		"id": "8286d0b9-0ccf-455a-93a1-943409981972",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.36",
+		"ReferenceID": "J44",
+		"DataType": "numeric",
+		"Variable": "Chronic Obstructive Pulmonary Disease",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "مرض الانسداد الرئوي المزمن",
+		"QuestionTextEnglish": "Chronic obstructive pulmonary disease (COPD)",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "81fea773-7cb1-457f-8190-d86319acd95e",
+		"createdAt": "1674665938890",
+		"updatedAt": "1674665938890",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.24",
+		"ReferenceID": "M32",
+		"DataType": "numeric",
+		"Variable": "Systemic Lupus Erythematosus",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "الذئبة الحمامية (الذئبة الحمراء)",
+		"QuestionTextEnglish": "Systemic Lupus Erythematosus (SLE)",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "813dd085-108b-4cd1-b382-d299d1287452",
+		"createdAt": "1674665938890",
+		"updatedAt": "1674665938890",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.42",
+		"ReferenceID": "K70, K713, K71.4, K71.5, K71.7, K73, K74, B18 ",
+		"DataType": "numeric",
+		"Variable": "Chronic Liver Disease",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "مرض الكبد المزمن",
+		"QuestionTextEnglish": "Chronic Liver Disease",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "7afaf46d-d593-4e62-a48d-23cf6134b3a2",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.22",
+		"ReferenceID": "M15, M16, M17, M18, M19",
+		"DataType": "numeric",
+		"Variable": "Osteoarthritis",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "هشاشة العظام",
+		"QuestionTextEnglish": "Osteoarthritis (OA)",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "7784f41b-014d-4722-b697-de56b31ce990",
+		"createdAt": "1674665938890",
+		"updatedAt": "1674665938890",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.17",
+		"ReferenceID": "G43, G44",
+		"DataType": "numeric",
+		"Variable": "Migraines",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "الصداع النصفي",
+		"QuestionTextEnglish": "Migraines",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "76aa705b-e984-4d0a-a07a-27618bd8b027",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 30,
+		"CategoryAbbreviation": "BMT",
+		"CategoryName": "Biometrics",
+		"CategoryDescription": "In this section, biometrics are recorded: blood pressure, height, weight, and BMI. In addition, if present, ongoing pregnancy is flagged to exclude biases in the BMI calculation.",
+		"QuestionID": "BMT003.00.02",
+		"ReferenceID": "na",
+		"DataType": "datetime",
+		"Variable": "Height 2",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "تاريخ القياس",
+		"QuestionTextEnglish": "Date of measurement",
+		"ResponseArabic": {
+			"Response": "",
+			"Placeholder": "الميلادي (يوم/شهر/سنة)"
+		},
+		"ResponseEnglish": {
+			"Response": "",
+			"Placeholder": "Gregorian (DDMMYYYY)"
+		},
+		"ResponseType": "ddmmyyyy",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "7685495b-4bc7-41a5-8f14-347e7447de5c",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.32",
+		"ReferenceID": "D57",
+		"DataType": "numeric",
+		"Variable": "Sickle Cell Anemia",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "فقر الدم المنجلي",
+		"QuestionTextEnglish": "Sickle Cell Anemia",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "72c85a48-b579-429d-a22b-97c5d7f19c84",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.49",
+		"ReferenceID": "E28.2",
+		"DataType": "numeric",
+		"Variable": "Polycystic ovaries",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "تكيس المبايض",
+		"QuestionTextEnglish": "Polycystic ovaries",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "6cd47255-4e2b-44b7-8481-00f6858bcb82",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.20",
+		"ReferenceID": "G20, G21",
+		"DataType": "numeric",
+		"Variable": "Parkinsonism and tremor",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "الشلل الرعاش/ الرعشة",
+		"QuestionTextEnglish": "Parkinsonism and tremor",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "688afa02-c083-4aa2-a080-b6eb66e185c8",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 50,
+		"CategoryAbbreviation": "FPD",
+		"CategoryName": "Functional profile and disability ",
+		"CategoryDescription": "In this category, general questions on functional status and disability are posed. If some limitations in performing daily activities are retrieved, additional and more detailed questions on the activities of daily living are raised.",
+		"QuestionID": "FPD008.00.01",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Housebound state",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "بصفة عامة، هل لديك أي مشاكل صحية تتطلب منك البقاء في المنزل؟",
+		"QuestionTextEnglish": "In general, do you have any health problems that require you to stay home?",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "textbox",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "68370ab3-4497-4d2f-9d5f-d2b1be09305d",
+		"createdAt": "1674665938890",
+		"updatedAt": "1674665938890",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.10",
+		"ReferenceID": "I50",
+		"DataType": "numeric",
+		"Variable": "Congestive Heart failure",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "فشل القلب الاحتقاني",
+		"QuestionTextEnglish": "Congestive Heart failure (CHF)",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "64e57baa-d290-48c4-beab-923176029e97",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.46",
+		"ReferenceID": "C90.1, C91, C92, C93, C94, C95",
+		"DataType": "numeric",
+		"Variable": "Leukemia",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "سرطان الدم",
+		"QuestionTextEnglish": "Leukemia",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "646b14ce-dd1d-4b31-8b9e-e80241c825fe",
+		"createdAt": "1674665938890",
+		"updatedAt": "1674665938890",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.15",
+		"ReferenceID": "I60, I61, I62, I63, G45",
+		"DataType": "numeric",
+		"Variable": "History of Stroke and TIA or other Tromboembolism (or any other cerebrovascular disease) ",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "تاريخ من السكتة الدماغية - النوبة الإقفارية العابرة  أو الجلطات الدموية الأخرى (أو أي مرض دماغي وعائي آخر)",
+		"QuestionTextEnglish": "History of Stroke and TIA (STIA) or other Tromboembolism (or any other cerebrovascular disease) ",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "62653408-d918-402f-b505-886aeb3e32ac",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.50",
+		"ReferenceID": "N18.1, N18.2",
+		"DataType": "numeric",
+		"Variable": "Chronic Kidney Disease",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "مرض الكلى المزمن",
+		"QuestionTextEnglish": "Chronic Kidney Disease (CKD)",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "60fcfb73-6850-40b7-a5f7-adf5145788ef",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 70,
+		"CategoryAbbreviation": "MHS",
+		"CategoryName": "Mental Health Status",
+		"CategoryDescription": "In this section the patient is asked questions about his mental health status and mood.",
+		"QuestionID": "MHS005.00.08",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Depression 10",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "هل تشعر بالعجز في كثير من الأحيان؟",
+		"QuestionTextEnglish": "Do you often feel helpless?",
+		"ResponseArabic": [
+			{
+				"Response": "1 = لا على الإطلاق"
+			},
+			{
+				"Response": "2 = عدة أيام"
+			},
+			{
+				"Response": "3 = أكثر من نصف الأيام"
+			},
+			{
+				"Response": "4 = كل يوم تقريبًا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = not at all"
+			},
+			{
+				"Response": "2 = several days"
+			},
+			{
+				"Response": "3 = more than half the days"
+			},
+			{
+				"Response": "4 = nearly every day"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "5d477599-1330-47c3-822d-3e60aa7cf249",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 70,
+		"CategoryAbbreviation": "MHS",
+		"CategoryName": "Mental Health Status",
+		"CategoryDescription": "In this section the patient is asked questions about his mental health status and mood.",
+		"QuestionID": "MHS005.00.02",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Depression 4",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "هل خليت عن الكثير من أنشطتك واهتماماتك؟",
+		"QuestionTextEnglish": "Have you dropped many of your activities and your interests? ",
+		"ResponseArabic": [
+			{
+				"Response": "1 = لا على الإطلاق"
+			},
+			{
+				"Response": "2 = عدة أيام"
+			},
+			{
+				"Response": "3 = أكثر من نصف الأيام"
+			},
+			{
+				"Response": "4 = كل يوم تقريبًا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = not at all"
+			},
+			{
+				"Response": "2 = several days"
+			},
+			{
+				"Response": "3 = more than half the days"
+			},
+			{
+				"Response": "4 = nearly every day"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "5c60f719-2b42-4663-9ec6-dcea734bfc24",
+		"createdAt": "1674665938890",
+		"updatedAt": "1674665938890",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.07",
+		"ReferenceID": "O24",
+		"DataType": "numeric",
+		"Variable": "Gestational Diabetes",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "سكر الحمل",
+		"QuestionTextEnglish": "Gestational Diabetes",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "5acfd7ee-5897-428b-8e96-215d017e1e55",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 30,
+		"CategoryAbbreviation": "BMT",
+		"CategoryName": "Biometrics",
+		"CategoryDescription": "In this section, biometrics are recorded: blood pressure, height, weight, and BMI. In addition, if present, ongoing pregnancy is flagged to exclude biases in the BMI calculation.",
+		"QuestionID": "BMT006.00.02",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Pregnancy",
+		"InterviewModule": "Adults",
+		"ContentType": "Adults' Core",
+		"QuestionTextArabic": "بالنسبة للسيدات ، هل أنت حامل؟",
+		"QuestionTextEnglish": "[for women] Are you pregnant?",
+		"ResponseArabic": [
+			{
+				"Response": "1 = حمل مستمر"
+			},
+			{
+				"Response": "2 = لست حامل"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = ongoing pregnancy"
+			},
+			{
+				"Response": "2 = not pregnant"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "58de90c1-235e-4329-88a6-2a19e8f4ceec",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 20,
+		"CategoryAbbreviation": "DAG",
+		"CategoryName": "Demographics and Registration",
+		"CategoryDescription": "Demographic and registration information is provided. It includes unmodifiable risk factors (age and gender) and social determinants of health that can be combined to assess the Social Deprivation Index.",
+		"QuestionID": "DAG002.00.01",
+		"ReferenceID": "AB004",
+		"DataType": "datetime",
+		"Variable": "Date of birth (Hijri)",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Registration Core",
+		"QuestionTextArabic": "[تاريخ الميلاد]",
+		"QuestionTextEnglish": "[Date of birth]",
+		"ResponseArabic": {
+			"Response": "",
+			"Placeholder": "هجري (يوم/شهر/سنة، الحد الأقصى لحجم الحقل ، 8)"
+		},
+		"ResponseEnglish": {
+			"Response": "",
+			"Placeholder": "Hijri (DDMMYYYY; Maximum field sixe, 8)"
+		},
+		"ResponseType": "ddmmyyyy",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "57fc572f-30ba-4f71-9d02-493b24aa4343",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 30,
+		"CategoryAbbreviation": "BMT",
+		"CategoryName": "Biometrics",
+		"CategoryDescription": "In this section, biometrics are recorded: blood pressure, height, weight, and BMI. In addition, if present, ongoing pregnancy is flagged to exclude biases in the BMI calculation.",
+		"QuestionID": "BMT002.00.01",
+		"ReferenceID": "CF005",
+		"DataType": "numeric",
+		"Variable": "Diastolic Blood Pressure 1",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "ضغط دم انبساطي",
+		"QuestionTextEnglish": "Diastolic Blood Pressure",
+		"ResponseArabic": {
+			"Response": "",
+			"Placeholder": "___ مم زئبق (النطاق: 10-999 مم زئبق)"
+		},
+		"ResponseEnglish": {
+			"Response": "",
+			"Placeholder": "___ mmHg (range: 10-999 mmHg)"
+		},
+		"ResponseType": "textbox",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "57b1bc71-9e8d-422d-bcb7-2dd9429b008d",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 70,
+		"CategoryAbbreviation": "MHS",
+		"CategoryName": "Mental Health Status",
+		"CategoryDescription": "In this section the patient is asked questions about his mental health status and mood.",
+		"QuestionID": "MHS005.00.07",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Depression 9",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "هل تشعر بالسعادة معظم الوقت؟",
+		"QuestionTextEnglish": "Do you feel happy most of the time?",
+		"ResponseArabic": [
+			{
+				"Response": "1 = لا على الإطلاق"
+			},
+			{
+				"Response": "2 = عدة أيام"
+			},
+			{
+				"Response": "3 = أكثر من نصف الأيام"
+			},
+			{
+				"Response": "4 = كل يوم تقريبًا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = not at all"
+			},
+			{
+				"Response": "2 = several days"
+			},
+			{
+				"Response": "3 = more than half the days"
+			},
+			{
+				"Response": "4 = nearly every day"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "56e0dd68-96d0-430d-99fe-b5cb501c357b",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 50,
+		"CategoryAbbreviation": "FPD",
+		"CategoryName": "Functional profile and disability ",
+		"CategoryDescription": "In this category, general questions on functional status and disability are posed. If some limitations in performing daily activities are retrieved, additional and more detailed questions on the activities of daily living are raised.",
+		"QuestionID": "FPD007.00.01",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Ability to walk outside",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "القدرة على المشي بالخارج",
+		"QuestionTextEnglish": "Ability to walk outside",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم, على نحو مستقل "
+			},
+			{
+				"Response": "2 = نعم ، يحتاج لمساعدة"
+			},
+			{
+				"Response": "3 = لا شئ"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = Yes, independent"
+			},
+			{
+				"Response": "2 = Yes, assisted"
+			},
+			{
+				"Response": "3 = None"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "56dd1757-46f8-45b9-92a4-af58962e204f",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.40",
+		"ReferenceID": "B20, B21, B22, B23, B24",
+		"DataType": "numeric",
+		"Variable": "HIV or AIDS",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "إيدز",
+		"QuestionTextEnglish": "AIDS",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "55bae760-1b58-421b-9bda-51ca912ab930",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 20,
+		"CategoryAbbreviation": "DAG",
+		"CategoryName": "Demographics and Registration",
+		"CategoryDescription": "Demographic and registration information is provided. It includes unmodifiable risk factors (age and gender) and social determinants of health that can be combined to assess the Social Deprivation Index.",
+		"QuestionID": "DAG004.00.03",
+		"ReferenceID": "na",
+		"DataType": "alphanumeric",
+		"Variable": "Neighborhood/district",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Registration Core",
+		"QuestionTextArabic": "الحي",
+		"QuestionTextEnglish": "Neighborhood/district",
+		"ResponseArabic": {
+			"Response": "",
+			"Placeholder": "(استمارة البريد السعودي)"
+		},
+		"ResponseEnglish": {
+			"Response": "",
+			"Placeholder": "(Saudi Post Format)"
+		},
+		"ResponseType": "textbox",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": "The neighbourhood/district the individual resides",
+		"Lang": null
+	},
+	{
+		"id": "52fef6d5-c2d7-4037-9342-2a706e5411ef",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.26",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Learning disabilities",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "صعوبات التعلم ",
+		"QuestionTextEnglish": "Learning disabilities (LD)",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "50f64838-da53-440d-9e26-7dc119e88f72",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.11",
+		"ReferenceID": "I48",
+		"DataType": "numeric",
+		"Variable": "Atrial fibrillation",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "الرجفان الأذيني",
+		"QuestionTextEnglish": "Atrial fibrillation (AF)",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "4f190983-a6af-4c00-ae08-755b8433678b",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.02",
+		"ReferenceID": "I95",
+		"DataType": "numeric",
+		"Variable": "Hypotension or Syncope",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "انخفاض ضغط الدم / فقدان الوعي",
+		"QuestionTextEnglish": "Hypotension / Syncope",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "4e6164a8-8532-42cc-be65-45098ddef846",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 70,
+		"CategoryAbbreviation": "MHS",
+		"CategoryName": "Mental Health Status",
+		"CategoryDescription": "In this section the patient is asked questions about his mental health status and mood.",
+		"QuestionID": "MHS003.00.01",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Anxiety 1",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "القلق: \"على مدار الأسبوعين الماضيين ، كم مرة أزعجتك المشكلة التالية: الشعور بالتوتر أو القلق؟",
+		"QuestionTextEnglish": "Anxiety: \"Over the last 2 WEEKS, how often have you been bothered by the following problem: feeling nervous, anxious or on edge?\"",
+		"ResponseArabic": [
+			{
+				"Response": "1 = لا على الإطلاق"
+			},
+			{
+				"Response": "2 = عدة أيام"
+			},
+			{
+				"Response": "3 = أكثر من نصف الأيام"
+			},
+			{
+				"Response": "4 = كل يوم تقريبًا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = not at all"
+			},
+			{
+				"Response": "2 = several days"
+			},
+			{
+				"Response": "3 = more than half the days"
+			},
+			{
+				"Response": "4 = nearly every day"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "4c9a7a5f-b814-4a5a-9d71-f263b261a541",
+		"createdAt": "1674665938890",
+		"updatedAt": "1674665938890",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.44",
+		"ReferenceID": "C00-C80, D00-D44",
+		"DataType": "numeric",
+		"Variable": "Solid Tumor",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "الأورام الصلبة",
+		"QuestionTextEnglish": "Solid Tumor",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "Yes, if \"no\" then skip to \"MCP002.00.46\"",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "4aca30cb-079d-43df-b3e8-70438c8eea08",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.48",
+		"ReferenceID": "M80, M81, M82",
+		"DataType": "numeric",
+		"Variable": "Osteoporosis and fragility fracture",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "هشاشة العظام  والكسور الناتجة عن هشاشة العظام",
+		"QuestionTextEnglish": "Osteoporosis and fragility fracture (OST)",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "4a1be0c0-1a81-4bf1-b233-f892b7a427e7",
+		"createdAt": "1674665938890",
+		"updatedAt": "1674665938890",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 70,
+		"CategoryAbbreviation": "MHS",
+		"CategoryName": "Mental Health Status",
+		"CategoryDescription": "In this section the patient is asked questions about his mental health status and mood.",
+		"QuestionID": "MHS003.00.02",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Anxiety 2",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "القلق: \"على مدار الأسبوعين الماضيين ، كم مرة أزعجتك المشكلة التالية: عدم القدرة على إيقاف القلق أو التحكم فيه؟\"",
+		"QuestionTextEnglish": "Anxiety: \"Over the last 2 WEEKS, how often have you been bothered by the following problem: Not being able to stop or control worrying?\"",
+		"ResponseArabic": [
+			{
+				"Response": "1 = لا على الإطلاق"
+			},
+			{
+				"Response": "2 = عدة أيام"
+			},
+			{
+				"Response": "3 = أكثر من نصف الأيام"
+			},
+			{
+				"Response": "4 = كل يوم تقريبًا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = not at all"
+			},
+			{
+				"Response": "2 = several days"
+			},
+			{
+				"Response": "3 = more than half the days"
+			},
+			{
+				"Response": "4 = nearly every day"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "470d7eae-afe0-4a56-b816-3c91431051b7",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 10,
+		"CategoryAbbreviation": "IND",
+		"CategoryName": "Interviewer data",
+		"CategoryDescription": "In this section, interviewer data and interview date are recorded for accountability.",
+		"QuestionID": "IND003.00.02",
+		"ReferenceID": "na",
+		"DataType": "datetime",
+		"Variable": "Interview date (Hijri)",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "تاريخ المقابلة (يوم / شهر / سنة ، التقويم الهجري)",
+		"QuestionTextEnglish": "Interview date (dd/mm/yyyy; Hijri calendar)",
+		"ResponseArabic": {
+			"Response": ""
+		},
+		"ResponseEnglish": {
+			"Response": ""
+		},
+		"ResponseType": "ddmmyyyy",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "44ab9e47-ccd8-45e4-b73f-c9092c5bdc4c",
+		"createdAt": "1674665938890",
+		"updatedAt": "1674665938890",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.52",
+		"ReferenceID": "N00-N17, N18.9-N99",
+		"DataType": "numeric",
+		"Variable": "Urinary System Disease",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "أمراض الجهاز البولي",
+		"QuestionTextEnglish": "Urinary System Disease",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "4094d6fb-6cd4-4ba7-be02-88fcb6fd0583",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 20,
+		"CategoryAbbreviation": "DAG",
+		"CategoryName": "Demographics and Registration",
+		"CategoryDescription": "Demographic and registration information is provided. It includes unmodifiable risk factors (age and gender) and social determinants of health that can be combined to assess the Social Deprivation Index.",
+		"QuestionID": "DAG003.00.01",
+		"ReferenceID": "AB001",
+		"DataType": "alphab",
+		"Variable": "Gender",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Registration Core",
+		"QuestionTextArabic": "النوع (الجنس)",
+		"QuestionTextEnglish": "Gender",
+		"ResponseArabic": [
+			{
+				"Response": "أ = تم تغيير النوع إلى ذكر"
+			},
+			{
+				"Response": "ب =تم تغيير النوع إلى أنثى"
+			},
+			{
+				"Response": "ج = لم يكتمل"
+			},
+			{
+				"Response": "ف = أنثى"
+			},
+			{
+				"Response": "م = ذكر"
+			},
+			{
+				"Response": "ن = غير متمايز"
+			},
+			{
+				"Response": "ك = غير معروف"
+			},
+			{
+				"Response": "ي= غير محدد"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "A = Sex changed to Male"
+			},
+			{
+				"Response": "B = Sex changed to Female"
+			},
+			{
+				"Response": "C = Not Completed"
+			},
+			{
+				"Response": "F = Female"
+			},
+			{
+				"Response": "M = Male"
+			},
+			{
+				"Response": "N = Undifferentiated"
+			},
+			{
+				"Response": "K = Unknown"
+			},
+			{
+				"Response": "U = Undetermined"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "3df19526-135a-4931-8a65-763a5dc71174",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 70,
+		"CategoryAbbreviation": "MHS",
+		"CategoryName": "Mental Health Status",
+		"CategoryDescription": "In this section the patient is asked questions about his mental health status and mood.",
+		"QuestionID": "MHS006.00.01",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Hours of Sleep",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "كم ساعة تنام كل ليلة؟",
+		"QuestionTextEnglish": "How many hours do you sleep per night? ",
+		"ResponseArabic": {
+			"Response": "",
+			"Placeholder": "___ ساعة (الحد الأقصى للقيمة: 21)"
+		},
+		"ResponseEnglish": {
+			"Response": "",
+			"Placeholder": "___ hours (maximum value: 21)"
+		},
+		"ResponseType": "textbox",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "3b009f40-7742-4ac5-b49b-8ffa562c75ff",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.47",
+		"ReferenceID": "C81, C82, C83, C84, C85, C88",
+		"DataType": "numeric",
+		"Variable": "Lymphoma",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "سرطان الغدد الليمفاوية",
+		"QuestionTextEnglish": "Lymphoma",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "37b18f05-53a7-4d4e-91fd-53f9ebd58a1e",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 70,
+		"CategoryAbbreviation": "MHS",
+		"CategoryName": "Mental Health Status",
+		"CategoryDescription": "In this section the patient is asked questions about his mental health status and mood.",
+		"QuestionID": "MHS005.00.13",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Depression 15",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "هل تشعر أنك مليء بالطاقة والحيوية؟",
+		"QuestionTextEnglish": "Do you feel full of energy?",
+		"ResponseArabic": [
+			{
+				"Response": "1 = لا على الإطلاق"
+			},
+			{
+				"Response": "2 = عدة أيام"
+			},
+			{
+				"Response": "3 = أكثر من نصف الأيام"
+			},
+			{
+				"Response": "4 = كل يوم تقريبًا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = not at all"
+			},
+			{
+				"Response": "2 = several days"
+			},
+			{
+				"Response": "3 = more than half the days"
+			},
+			{
+				"Response": "4 = nearly every day"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "36de6eb5-f042-4a5e-9d23-b160fd4dcace",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 20,
+		"CategoryAbbreviation": "DAG",
+		"CategoryName": "Demographics and Registration",
+		"CategoryDescription": "Demographic and registration information is provided. It includes unmodifiable risk factors (age and gender) and social determinants of health that can be combined to assess the Social Deprivation Index.",
+		"QuestionID": "DAG004.00.08",
+		"ReferenceID": "AC002",
+		"DataType": "alphab",
+		"Variable": "Education Status",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Registration Core",
+		"QuestionTextArabic": "التعليم",
+		"QuestionTextEnglish": "Education Status",
+		"ResponseArabic": [
+			{
+				"Response": "1 = أمي"
+			},
+			{
+				"Response": "2 = تعليم ابتدائي"
+			},
+			{
+				"Response": "3 = تعليم متوسط"
+			},
+			{
+				"Response": "4 = تعليم ثانوي"
+			},
+			{
+				"Response": "5 = الجامعة"
+			},
+			{
+				"Response": "6 = التعليم العالي"
+			},
+			{
+				"Response": "9 = غير معروف"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = illiterate"
+			},
+			{
+				"Response": "2 = Primary Education"
+			},
+			{
+				"Response": "3 = Intermediate Education"
+			},
+			{
+				"Response": "4 = Secondary Education"
+			},
+			{
+				"Response": "5 = University"
+			},
+			{
+				"Response": "6 = Higher Education"
+			},
+			{
+				"Response": "9 = Unknown"
+			}
+		],
+		"ResponseType": "dropdownlist",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": "The latest education attainment",
+		"Lang": null
+	},
+	{
+		"id": "36c59013-a445-49c7-ad46-a3eabc307fd6",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.30",
+		"ReferenceID": "F31",
+		"DataType": "numeric",
+		"Variable": "Bipolar Disorder",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "اضطراب ثنائي القطب",
+		"QuestionTextEnglish": "Bipolar Disorder;",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "35e4182d-aeda-4c6b-a246-4b364f28e5b3",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.27",
+		"ReferenceID": "F06",
+		"DataType": "numeric",
+		"Variable": "Mild Cognitive Impairment",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "ضعف إدراكي خفيف أو معتدل",
+		"QuestionTextEnglish": "Mild or moderate cognitive impairment",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "32da09e5-c226-42a6-9d50-c8d2439e6d44",
+		"createdAt": "1674665938890",
+		"updatedAt": "1674665938890",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.29",
+		"ReferenceID": "F40, F41",
+		"DataType": "numeric",
+		"Variable": "Anxiety",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "القلق ",
+		"QuestionTextEnglish": "Anxiety (ANX)",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "30405dd3-b38f-4229-a83e-19bd02379933",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.01",
+		"ReferenceID": "I10, I15",
+		"DataType": "numeric",
+		"Variable": "Hypertension",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Registration Core",
+		"QuestionTextArabic": "ارتفاع ضغط الدم",
+		"QuestionTextEnglish": "Hypertension (HTN)",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "2e6d4056-2386-45e5-9bbe-2ba020131b95",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 70,
+		"CategoryAbbreviation": "MHS",
+		"CategoryName": "Mental Health Status",
+		"CategoryDescription": "In this section the patient is asked questions about his mental health status and mood.",
+		"QuestionID": "MHS005.00.01",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Depression 3",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "هل أنت راضٍ  عن حياتك؟",
+		"QuestionTextEnglish": "Are you basically satisfied with your life?",
+		"ResponseArabic": [
+			{
+				"Response": "1 = لا على الإطلاق"
+			},
+			{
+				"Response": "2 = عدة أيام"
+			},
+			{
+				"Response": "3 = أكثر من نصف الأيام"
+			},
+			{
+				"Response": "4 = كل يوم تقريبًا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = not at all"
+			},
+			{
+				"Response": "2 = several days"
+			},
+			{
+				"Response": "3 = more than half the days"
+			},
+			{
+				"Response": "4 = nearly every day"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "2a32e736-8f42-4acd-8d9b-53fa952c2c5e",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.31",
+		"ReferenceID": "F20",
+		"DataType": "numeric",
+		"Variable": "Schizophrenia",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "الفصام",
+		"QuestionTextEnglish": "Schizophrenia;",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "29d6368a-ac09-4a4e-be50-8aa5ed759c8d",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 30,
+		"CategoryAbbreviation": "BMT",
+		"CategoryName": "Biometrics",
+		"CategoryDescription": "In this section, biometrics are recorded: blood pressure, height, weight, and BMI. In addition, if present, ongoing pregnancy is flagged to exclude biases in the BMI calculation.",
+		"QuestionID": "BMT004.00.02",
+		"ReferenceID": "na",
+		"DataType": "datetime",
+		"Variable": "Weight 2",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "تاريخ القياس",
+		"QuestionTextEnglish": "Date of measurement",
+		"ResponseArabic": {
+			"Response": "",
+			"Placeholder": "الميلادي (يوم/شهر/سنة)"
+		},
+		"ResponseEnglish": {
+			"Response": "",
+			"Placeholder": "Gregorian (DDMMYYYY)"
+		},
+		"ResponseType": "ddmmyyyy",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "249731a4-9b58-4bbb-a57a-9c3adb011064",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.01.12",
+		"ReferenceID": "I05, I06, I07, I08, I34, I35, I36, I37, Q22, Q23",
+		"DataType": "numeric",
+		"Variable": "Heart Valve Disease",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "أمراض صمام القلب",
+		"QuestionTextEnglish": "Heart Valve Disease",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "21bea96a-9931-4c44-8106-e921839b8063",
+		"createdAt": "1674665938890",
+		"updatedAt": "1674665938890",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 70,
+		"CategoryAbbreviation": "MHS",
+		"CategoryName": "Mental Health Status",
+		"CategoryDescription": "In this section the patient is asked questions about his mental health status and mood.",
+		"QuestionID": "MHS005.00.06",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Depression 8",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "هل تخشى أن يحدث لك شيء سيء؟",
+		"QuestionTextEnglish": "Are you afraid that something bad is going to happen to you?",
+		"ResponseArabic": [
+			{
+				"Response": "1 = لا على الإطلاق"
+			},
+			{
+				"Response": "2 = عدة أيام"
+			},
+			{
+				"Response": "3 = أكثر من نصف الأيام"
+			},
+			{
+				"Response": "4 = كل يوم تقريبًا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = not at all"
+			},
+			{
+				"Response": "2 = several days"
+			},
+			{
+				"Response": "3 = more than half the days"
+			},
+			{
+				"Response": "4 = nearly every day"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "1ef0e272-7aec-4daf-87e0-190bce845578",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 20,
+		"CategoryAbbreviation": "DAG",
+		"CategoryName": "Demographics and Registration",
+		"CategoryDescription": "Demographic and registration information is provided. It includes unmodifiable risk factors (age and gender) and social determinants of health that can be combined to assess the Social Deprivation Index.",
+		"QuestionID": "DAG004.00.01",
+		"ReferenceID": "AA007",
+		"DataType": "alphanumeric",
+		"Variable": "National Address",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Registration Core",
+		"QuestionTextArabic": "العنوان الوطني",
+		"QuestionTextEnglish": "National Address",
+		"ResponseArabic": {
+			"Response": "",
+			"Placeholder": "(استمارة البريد السعودي)"
+		},
+		"ResponseEnglish": {
+			"Response": "",
+			"Placeholder": "(Saudi Post Format)"
+		},
+		"ResponseType": "textbox",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": "Referential description of a location where the individual is located or can be otherwise reached or found",
+		"Lang": null
+	},
+	{
+		"id": "1d7194da-959d-49e3-ab4d-45880945ce24",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 60,
+		"CategoryAbbreviation": "FRS",
+		"CategoryName": "Family Risk Score",
+		"CategoryDescription": "In this section, the presence of familiarity with diseases of concern is investigated through a specific set of questions.",
+		"QuestionID": "FRS002.00.03",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Family History of Stroke",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "التاريخ العائلي من السكتة الدماغية",
+		"QuestionTextEnglish": "Family History of Stroke",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "1cd7dcfc-19e2-4494-ad94-6fd6ee269069",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 50,
+		"CategoryAbbreviation": "FPD",
+		"CategoryName": "Functional profile and disability ",
+		"CategoryDescription": "In this category, general questions on functional status and disability are posed. If some limitations in performing daily activities are retrieved, additional and more detailed questions on the activities of daily living are raised.",
+		"QuestionID": "FPD003.00.01",
+		"ReferenceID": "H54",
+		"DataType": "numeric",
+		"Variable": "Visual Impairement",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "وجود إعاقة بصرية أو ضعف في حدة البصر",
+		"QuestionTextEnglish": "Presence of Visual Disability or impaired visual acuity ",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": "in spite of glasses or contact lenses use",
+		"Lang": null
+	},
+	{
+		"id": "1891a559-a536-4d94-83ab-6e4466fa5376",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.28",
+		"ReferenceID": "F32, F33",
+		"DataType": "numeric",
+		"Variable": "Depression",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "الاكتئاب ",
+		"QuestionTextEnglish": "Depression (DEP)",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "18656043-f506-43cd-8c7f-cacea8f61ea2",
+		"createdAt": "1674665938890",
+		"updatedAt": "1674665938890",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.04",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Diabetes Mellitus type 1 control",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "كيف يتم علاج مرض السكري؟",
+		"QuestionTextEnglish": "How is diabetes controlled?",
+		"ResponseArabic": [
+			{
+				"Response": "1 = غير متقدم"
+			},
+			{
+				"Response": "2 = أدي الى تلف عضو بشكل نهائي "
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = uncomplicated"
+			},
+			{
+				"Response": "2 = with end organ damage"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "1592f5c7-3a07-48ec-8534-f6678374cf79",
+		"createdAt": "1674665938890",
+		"updatedAt": "1674665938890",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.05",
+		"ReferenceID": "E11",
+		"DataType": "numeric",
+		"Variable": "Diabetes Mellitus type 2",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "السكري من النوع الثاني",
+		"QuestionTextEnglish": "Diabetes Mellitus (DM) type 2",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "Yes, if \"2 = No,\" then skip to \"MCP002.00.07\"",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "15125588-4c8b-48d2-965e-49a6b8ca3c69",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 10,
+		"CategoryAbbreviation": "IND",
+		"CategoryName": "Interviewer data",
+		"CategoryDescription": "In this section, interviewer data and interview date are recorded for accountability.",
+		"QuestionID": "IND003.00.01",
+		"ReferenceID": "na",
+		"DataType": "datetime",
+		"Variable": "Interview date (gregorian)",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "تاريخ المقابلة (يوم / شهر / سنة ، التقويم الميلادي)",
+		"QuestionTextEnglish": "Interview date (dd/mm/yyyy; Gregorian calendar)",
+		"ResponseArabic": {
+			"Response": ""
+		},
+		"ResponseEnglish": {
+			"Response": ""
+		},
+		"ResponseType": "ddmmyyyy",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "1437e329-22cd-4ae1-896c-1361cc39d0e6",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 50,
+		"CategoryAbbreviation": "FPD",
+		"CategoryName": "Functional profile and disability ",
+		"CategoryDescription": "In this category, general questions on functional status and disability are posed. If some limitations in performing daily activities are retrieved, additional and more detailed questions on the activities of daily living are raised.",
+		"QuestionID": "FPD005.00.03",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Autonomy in toileting",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "يستطيع الذهاب الى الحمام ، خلع وارتداء الملابس، رتيب الملابس ، وتنظيف منطقة الأعضاء التناسلية دون مساعدة.",
+		"QuestionTextEnglish": "Goes to toilet, gets on and off, arranges clothes, cleans genital area without help.",
+		"ResponseArabic": [
+			{
+				"Response": "1 = غير قادر على القيام بالأنشطة"
+			},
+			{
+				"Response": "2 = قادر على العمل بوجود مساعدة أو إشراف من شخص آخر"
+			},
+			{
+				"Response": "3 = قادر على القيام بالأنشطة على نحو مستقل"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = Unable to do"
+			},
+			{
+				"Response": "2 = Able to do with help or supervision from another person"
+			},
+			{
+				"Response": "3 = Able to do independent"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "139ff284-179e-4b8f-a722-15893a9ec626",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.16",
+		"ReferenceID": "G40",
+		"DataType": "numeric",
+		"Variable": "Epilepsy",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "الصرع ",
+		"QuestionTextEnglish": "Epilepsy (EP)",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "130e0fdc-26e1-4a0c-b7ea-258a3a1f7701",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 50,
+		"CategoryAbbreviation": "FPD",
+		"CategoryName": "Functional profile and disability ",
+		"CategoryDescription": "In this category, general questions on functional status and disability are posed. If some limitations in performing daily activities are retrieved, additional and more detailed questions on the activities of daily living are raised.",
+		"QuestionID": "FPD005.00.06",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Autonomy in eating",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "يحصل على الطعام من الطبق إلى الفم بدون مساعدة. يمكن أن يقوم شخص آخر بتحضير الطعام",
+		"QuestionTextEnglish": "Gets food from plate into mouth without help. Preparation of food may be done by another person",
+		"ResponseArabic": [
+			{
+				"Response": "1 = غير قادر على القيام بالأنشطة"
+			},
+			{
+				"Response": "2 = قادر على العمل بوجود مساعدة أو إشراف من شخص آخر"
+			},
+			{
+				"Response": "3 = قادر على القيام بالأنشطة على نحو مستقل"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = Unable to do"
+			},
+			{
+				"Response": "2 = Able to do with help or supervision from another person"
+			},
+			{
+				"Response": "3 = Able to do independent"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "120a7d70-e28d-4078-8e5c-460e82305577",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 70,
+		"CategoryAbbreviation": "MHS",
+		"CategoryName": "Mental Health Status",
+		"CategoryDescription": "In this section the patient is asked questions about his mental health status and mood.",
+		"QuestionID": "MHS001.00.01",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Health Status Perception",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": " الموقف الصحي \"بشكل عام ، مقارنة بالآخرين في عمرك ، خلال الثلاثين يومًا الماضية ، كيف تقيم صحتك العامة؟",
+		"QuestionTextEnglish": "Health Status Perception (health attitude):\"In general, Compared to others of your age, during the last 30 days, how would you rate your overall health? Would you say",
+		"ResponseArabic": [
+			{
+				"Response": "1 = فقير"
+			},
+			{
+				"Response": "2 = معتدل"
+			},
+			{
+				"Response": "3 = جيد"
+			},
+			{
+				"Response": "4 = جيد جدا"
+			},
+			{
+				"Response": "5 = ممتاز"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = poor"
+			},
+			{
+				"Response": "2 = fair"
+			},
+			{
+				"Response": "3 = good"
+			},
+			{
+				"Response": "4 = very good"
+			},
+			{
+				"Response": "5 = excellent"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "105b98a3-ea50-4c3f-833d-d954fdade9cc",
+		"createdAt": "1674665938890",
+		"updatedAt": "1674665938890",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.14",
+		"ReferenceID": "I64",
+		"DataType": "numeric",
+		"Variable": "History of Stroke and TIA or other Tromboembolism ",
+		"InterviewModule": "Adults",
+		"ContentType": "Adults' Core",
+		"QuestionTextArabic": "تاريخ من السكتة الدماغية - النوبة الإقفارية العابرة  أو الجلطات الدموية الأخرى",
+		"QuestionTextEnglish": "History of Stroke and TIA (STIA) or other Tromboembolism ",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "1",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "0bb7d3b6-ac89-4b53-a7bb-bc748bac416b",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 50,
+		"CategoryAbbreviation": "FPD",
+		"CategoryName": "Functional profile and disability ",
+		"CategoryDescription": "In this category, general questions on functional status and disability are posed. If some limitations in performing daily activities are retrieved, additional and more detailed questions on the activities of daily living are raised.",
+		"QuestionID": "FPD002.00.01",
+		"ReferenceID": "Q16, H90, H91",
+		"DataType": "numeric",
+		"Variable": "Hearing Impairement",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "الاعاقة السمعية (أو فقدان السمع)",
+		"QuestionTextEnglish": "Presence of Hearing Disability (or Hearing Loss)",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": "In spite of Assistive Listening Devices use",
+		"Lang": null
+	},
+	{
+		"id": "0931980f-6e61-4e1c-935d-c21c04df1080",
+		"createdAt": "1674665938890",
+		"updatedAt": "1674665938890",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP002.00.53",
+		"ReferenceID": "I83.0, I83.2, L89, L97, L98.4  ",
+		"DataType": "numeric",
+		"Variable": "Skin Ulcer",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "تقرحات الجلد",
+		"QuestionTextEnglish": "Skin Ulcer",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "088c5f44-c384-4213-bd15-a77873a52682",
+		"createdAt": "1674665938781",
+		"updatedAt": "1674665938781",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 70,
+		"CategoryAbbreviation": "MHS",
+		"CategoryName": "Mental Health Status",
+		"CategoryDescription": "In this section the patient is asked questions about his mental health status and mood.",
+		"QuestionID": "MHS005.00.05",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Depression 7",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "هل حالتك المعنوية جيدة في معظم الأوقات؟",
+		"QuestionTextEnglish": "Are you in good spirits most of the time?",
+		"ResponseArabic": [
+			{
+				"Response": "1 = لا على الإطلاق"
+			},
+			{
+				"Response": "2 = عدة أيام"
+			},
+			{
+				"Response": "3 = أكثر من نصف الأيام"
+			},
+			{
+				"Response": "4 = كل يوم تقريبًا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = not at all"
+			},
+			{
+				"Response": "2 = several days"
+			},
+			{
+				"Response": "3 = more than half the days"
+			},
+			{
+				"Response": "4 = nearly every day"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "063546e6-59b1-4f04-bd8c-361c73e6087a",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 70,
+		"CategoryAbbreviation": "MHS",
+		"CategoryName": "Mental Health Status",
+		"CategoryDescription": "In this section the patient is asked questions about his mental health status and mood.",
+		"QuestionID": "MHS005.00.10",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Depression 12",
+		"InterviewModule": "Elderly",
+		"ContentType": "Elderly Core",
+		"QuestionTextArabic": "هل تشعر أن لديك مشاكل في الذاكرة؟",
+		"QuestionTextEnglish": "Do you feel you have more problems with memory than most?",
+		"ResponseArabic": [
+			{
+				"Response": "1 = لا على الإطلاق"
+			},
+			{
+				"Response": "2 = عدة أيام"
+			},
+			{
+				"Response": "3 = أكثر من نصف الأيام"
+			},
+			{
+				"Response": "4 = كل يوم تقريبًا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = not at all"
+			},
+			{
+				"Response": "2 = several days"
+			},
+			{
+				"Response": "3 = more than half the days"
+			},
+			{
+				"Response": "4 = nearly every day"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "No",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": null,
+		"Lang": null
+	},
+	{
+		"id": "04f836fd-5111-48df-a127-3b3c80c0add0",
+		"createdAt": "1674665938716",
+		"updatedAt": "1674665938716",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria.",
+		"QuestionID": "MCP001.00.01",
+		"ReferenceID": "na",
+		"DataType": "numeric",
+		"Variable": "Any Health Condition",
+		"InterviewModule": "Adults / Elderly",
+		"ContentType": "Individual Core",
+		"QuestionTextArabic": "هل تم تشخيص حالة المريض بأي حالة صحية؟",
+		"QuestionTextEnglish": "Is the patient diagnosed with any health condition?",
+		"ResponseArabic": [
+			{
+				"Response": "1 = نعم"
+			},
+			{
+				"Response": "2 = لا"
+			}
+		],
+		"ResponseEnglish": [
+			{
+				"Response": "1 = yes"
+			},
+			{
+				"Response": "2 = no"
+			}
+		],
+		"ResponseType": "radiobutton",
+		"SkipInstructions": "Yes: if \"Patient doesn't suffer any health condition,\" go to \"FPD001.00.01\"",
+		"RiskScore": "0",
+		"QuestionInstructionsHints": "Based on the patient history and assessment, What are the health conditions the patient is CURRENTLY diagnosed with?",
+		"Lang": null
+	}
+]

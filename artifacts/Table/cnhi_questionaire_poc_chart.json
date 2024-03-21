@@ -1,0 +1,41 @@
+{
+	"id": "837eb3f4-afa3-ed11-994c-000d3a66eaa0",
+	"createdAt": "2023-02-03T10:46:09.410Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"fields": [
+		{
+			"id": "65299a38-83eb-46d9-877d-20fce1840dfe",
+			"fieldName": "SurveyStatus_Completed",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Completed Surveys",
+			"isNullable": true
+		},
+		{
+			"id": "902cd5ad-8b94-4c0a-f057-c917b8adee28",
+			"fieldName": "SurveyStatus_Pending",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Pending Surveys",
+			"isNullable": true
+		},
+		{
+			"id": "51655c88-3c37-4e3d-df10-cf2492749a0c",
+			"fieldName": "SurveyStatus_NotStarted",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "To Do Surveys",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "cnhi_questionaire_poc_chart",
+	"description": null,
+	"ver": "24.3.21.1616",
+	"enableAudit": true,
+	"includeDataInPackage": true,
+	"package": "d6ab558b-8c95-ed11-9f5f-000d3a66e586",
+	"rolesRead": [],
+	"rolesWrite": []
+}

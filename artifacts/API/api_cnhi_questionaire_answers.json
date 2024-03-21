@@ -1,0 +1,166 @@
+{
+	"id": "c20b0fb9-eaa2-ed11-994c-000d3a66eaa0",
+	"createdAt": "2023-02-02T11:14:13.943Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "b3a4e020-ec84-48e7-b316-5e2e6eb7c485",
+			"method": "POST",
+			"path": "/cnhi_questionaire_answers",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [],
+			"content": [],
+			"auth": [],
+			"endpoints": []
+		},
+		{
+			"id": "5be13c2b-7144-4fea-ddf9-2d8a026d34ca",
+			"method": "GET",
+			"path": "/cnhi_questionaire_answers",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"id": "5a2a4261-0991-4529-a0b8-6c4438d738a2",
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"content": [
+						{
+							"id": "971dadf6-0b13-46c7-bdcf-5c9def2048fb",
+							"name": "AnswerBody",
+							"objectType": "array"
+						}
+					]
+				}
+			],
+			"content": [],
+			"auth": [],
+			"endpoints": []
+		}
+	],
+	"definitions": [
+		{
+			"id": "a17e83e8-8b47-48d1-db66-e07767c5803c",
+			"name": "AnswerBody",
+			"description": "",
+			"isInclude": false,
+			"properties": [
+				{
+					"id": "645264b1-f2f3-4c21-9496-eadc54ab403b",
+					"name": "InterviewDate",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "6f828d7b-a6db-4ce6-8d73-92bb699087fd",
+					"name": "InterviewerID",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "e48e9568-b773-41a1-f499-ae6b13e72fa8",
+					"name": "IntervieweeNationalID",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "1ae90ad3-9d83-4a41-fcca-f0d30a660ef1",
+					"name": "InterviewData",
+					"parent": "",
+					"description": "",
+					"objectType": "array",
+					"objectName": "InterviewData",
+					"isParent": true,
+					"enableValueHelp": false,
+					"canAddSubNode": true,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "2bad186c-dd6e-4715-fc94-c44173a2d2e3",
+					"name": "ScoreData",
+					"parent": "",
+					"description": "",
+					"objectType": "object",
+					"objectName": "ScoreData",
+					"isParent": true,
+					"enableValueHelp": false,
+					"canAddSubNode": true,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "85a510be-09a8-4a1a-d943-ba7bd6f34cc9",
+					"name": "SurveyStatus",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "api_cnhi_questionaire_answers",
+	"endpoint": "/api/entity",
+	"ver": "23.2.2.1623",
+	"version": null,
+	"description": null,
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "d6ab558b-8c95-ed11-9f5f-000d3a66e586",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

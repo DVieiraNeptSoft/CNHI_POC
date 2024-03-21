@@ -1,0 +1,13 @@
+if (typeof SurveyStatus === "undefined" || SurveyStatus === null || SurveyStatus === "") {
+    return;
+}
+
+var formattedText;
+
+if (SurveyStatus === "Pending") {
+    formattedText = "Warning";
+} else {
+    formattedText = "Success";
+}
+
+return formattedText;

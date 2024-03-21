@@ -1,0 +1,159 @@
+{
+	"id": "14b30ee0-a6a3-ed11-994c-000d3a66eaa0",
+	"createdAt": "2023-02-03T09:41:11.270Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"paginationRows": "20",
+				"updateTime": "0",
+				"initialGroupField": "",
+				"initialGroupOrder": "",
+				"initialSortField": "",
+				"initialSortOrder": ""
+			},
+			"form": {
+				"enableCompact": false,
+				"showFilter": false
+			},
+			"table": {
+				"titleAlign": "center",
+				"chartHeight": 250,
+				"chartType": "bar",
+				"enableSorting": false,
+				"enableMonochrome": false,
+				"pieInnerSize": 0,
+				"enable3D": false,
+				"alpha3D": 0,
+				"beta3D": 0,
+				"depth3D": 100,
+				"legendEnable": true,
+				"legendAlign": "center",
+				"legendVerticalAlign": "bottom",
+				"legendLayout": "horizontal",
+				"xAxisTitleEnable": true,
+				"xAxisReversed": false,
+				"xAxisStartOnTick": true,
+				"xAxisGridLineWidth": "0",
+				"yAxisTitleEnable": false,
+				"yAxisReversed": false,
+				"yAxisStartOnTick": true,
+				"yAxisGridLineWidth": "1",
+				"title": "List of Surveys"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "InterviewDate",
+				"label": "InterviewDate",
+				"type": "timestamptz",
+				"usage": "BOTH"
+			},
+			{
+				"name": "InterviewerID",
+				"label": "InterviewerID",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "IntervieweeNationalID",
+				"label": "IntervieweeNationalID",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "InterviewData",
+				"label": "InterviewData",
+				"type": "json",
+				"usage": "BOTH"
+			},
+			{
+				"name": "ScoreData",
+				"label": "ScoreData",
+				"type": "json",
+				"usage": "BOTH"
+			},
+			{
+				"name": "SurveyStatus",
+				"label": "SurveyStatus",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "SurveyStatusNr",
+				"label": "SurveyStatusNr",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"visible": true,
+				"name": "SurveyStatus",
+				"text": "Survey Status",
+				"fieldPos": 1,
+				"type": "data"
+			},
+			{
+				"visible": false,
+				"name": "SurveyStatusNr",
+				"text": "SurveyStatusNr",
+				"fieldPos": 2,
+				"type": "data",
+				"valueType": ""
+			}
+		],
+		"defaultVariant": {
+			"id": "2b1f217a-14ed-4f67-f1c1-dd0b25f811fe",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "cnhi_adaptive_tile",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "055f84a4-a6a3-ed11-994c-000d3a66eaa0",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "23.2.3.1654",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_tile_chart",
+	"package": "d6ab558b-8c95-ed11-9f5f-000d3a66e586",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

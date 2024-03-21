@@ -1,0 +1,91 @@
+{
+	"id": "1cbca6e4-be9c-ed11-994c-000d3a66eaa0",
+	"createdAt": "2023-01-25T14:45:22.236Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"extUserRoles": [],
+	"extUserDepartments": [],
+	"catOrder": [
+		"64d3f339-bf9c-ed11-994c-000d3a66eaa0"
+	],
+	"layout": [
+		{
+			"id": "7f053b5a-8099-4f4b-dd53-670fa210511c",
+			"css": "",
+			"name": "cnhi_launchpad_layout",
+			"active": true,
+			"style": [
+				"==OBJECT STRING==",
+				"<style>",
+				"        .nepShell {",
+				"            background-image: url('https://gtmdemosystem.neptune-software.cloud/media/root/CNHI_MEDIA/bgStatistics.png') !important;",
+				"            background-repeat: no-repeat;",
+				"            background-size: cover;",
+				"        }",
+				"    </style>"
+			],
+			"pageBackgroundImage": "https://gtmdemosystem.neptune-software.cloud/media/root/CNHI_MEDIA/bgStatistics.png",
+			"shellContentWidth": "Full"
+		}
+	],
+	"config": {
+		"enhancement": "",
+		"activeAppsTop": true
+	},
+	"enhancement": [],
+	"name": "cnhi_launchpad_poc",
+	"title": "CNHI Launchpad",
+	"description": null,
+	"startApp": null,
+	"startWebApp": null,
+	"customLogo": "/media/root/CNHI_MEDIA/cnhi_logo.png",
+	"launchpadApp": "planet9_launchpad_standard",
+	"hideSidemenu": false,
+	"ui5Version": "1.71",
+	"ui5Url": null,
+	"ui5Theme": null,
+	"header": [
+		"==OBJECT STRING==",
+		"<script src=\"https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js\"></script>\r",
+		"<script src=\"https://unpkg.com/moment-hijri@2.1.2/moment-hijri.js\"></script>"
+	],
+	"customTheme": null,
+	"isExternal": false,
+	"emailPattern": null,
+	"loginApp": null,
+	"enableNotifications": false,
+	"firebaseProjectId": null,
+	"firebaseAppId": null,
+	"defaultLoginIDP": null,
+	"publicAccess": false,
+	"css": null,
+	"clientRequestTimeout": 120,
+	"limitWidth": false,
+	"searchBackgroundType": null,
+	"searchBackgroundColor": null,
+	"searchBackgroundShade": null,
+	"usedBackgroundType": null,
+	"usedBackgroundColor": null,
+	"usedBackgroundShade": null,
+	"searchEnableShadeCalc": null,
+	"usedEnableShadeCalc": null,
+	"enableTrace": false,
+	"ver": "23.2.3.1643",
+	"pwa_enable": false,
+	"pwa_customImageIos": null,
+	"pwa_customImageAndroidOld": null,
+	"pwa_customImageAndroidNew": null,
+	"pwa_displayMode": null,
+	"pwa_themeColor": "rgb(255,255,255)",
+	"pwa_backgroundColor": "rgb(255,255,255)",
+	"passwordResetEmail": null,
+	"activationCodeEmail": null,
+	"package": "d6ab558b-8c95-ed11-9f5f-000d3a66e586",
+	"cat": [
+		{
+			"id": "64d3f339-bf9c-ed11-994c-000d3a66eaa0",
+			"name": "CNHI_TILEGROUP_POC",
+			"title": "General Apps",
+			"ver": "23.2.3.1635"
+		}
+	]
+}

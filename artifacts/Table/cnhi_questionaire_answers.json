@@ -1,0 +1,66 @@
+{
+	"id": "17b1d4b1-4d9e-ed11-994c-000d3a66eaa0",
+	"createdAt": "2023-01-27T14:20:09.673Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"fields": [
+		{
+			"id": "f2c602e7-4684-49fd-8721-8bf061220366",
+			"fieldName": "InterviewDate",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "34b9403d-3bf8-49f8-cd66-3f445d871fa3",
+			"fieldName": "InterviewerID",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "07bbc568-9871-49da-d594-2926d8ad56b6",
+			"fieldName": "IntervieweeNationalID",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "15882ab1-9df2-4ff4-bced-5b0c4f10920d",
+			"fieldName": "InterviewData",
+			"fieldType": "json",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "2a9b22d3-e3fa-492c-e883-0290180de4f1",
+			"fieldName": "ScoreData",
+			"fieldType": "json",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "543d24f3-d8dd-4aa3-d090-062fb395f1e4",
+			"fieldName": "SurveyStatus",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "36276e2c-4923-40eb-e6f0-bfd44640af7d",
+			"fieldName": "SurveyStatusNr",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "cnhi_questionaire_answers",
+	"description": "Table containing all the answers",
+	"ver": "24.3.21.1615",
+	"enableAudit": true,
+	"includeDataInPackage": true,
+	"package": "d6ab558b-8c95-ed11-9f5f-000d3a66e586",
+	"rolesRead": [],
+	"rolesWrite": []
+}

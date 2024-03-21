@@ -1,0 +1,79 @@
+[
+	{
+		"id": "ce94ceca-eb56-42e1-b6c6-d3d943888a44",
+		"createdAt": "1674206999468",
+		"updatedAt": "1674206999468",
+		"createdBy": "david.bartolome@neptune-software.com",
+		"updatedBy": "david.bartolome@neptune-software.com",
+		"CategorySort": 40,
+		"CategoryAbbreviation": "MCP",
+		"CategoryName": "Main Clinical Problems' List ",
+		"CategoryDescription": "In this section, the presence of health conditions is reported according to the presence of diagnostic criteria."
+	},
+	{
+		"id": "bd04c02c-0661-4324-9a13-0b691600aa5a",
+		"createdAt": "1674206999468",
+		"updatedAt": "1674206999468",
+		"createdBy": "david.bartolome@neptune-software.com",
+		"updatedBy": "david.bartolome@neptune-software.com",
+		"CategorySort": 10,
+		"CategoryAbbreviation": "IND",
+		"CategoryName": "Interviewer data",
+		"CategoryDescription": "In this section, interviewer data and interview date are recorded for accountability."
+	},
+	{
+		"id": "b022cbb0-b303-40ae-b519-b67516f69368",
+		"createdAt": "1674206999468",
+		"updatedAt": "1674206999468",
+		"createdBy": "david.bartolome@neptune-software.com",
+		"updatedBy": "david.bartolome@neptune-software.com",
+		"CategorySort": 20,
+		"CategoryAbbreviation": "DAG",
+		"CategoryName": "Demographics and Registration",
+		"CategoryDescription": "Demographic and registration information is provided. It includes unmodifiable risk factors (age and gender) and social determinants of health that can be combined to assess the Social Deprivation Index."
+	},
+	{
+		"id": "7e2b9174-86e5-4be3-a4c6-69721c18add9",
+		"createdAt": "1674206999468",
+		"updatedAt": "1674206999468",
+		"createdBy": "david.bartolome@neptune-software.com",
+		"updatedBy": "david.bartolome@neptune-software.com",
+		"CategorySort": 50,
+		"CategoryAbbreviation": "FPD",
+		"CategoryName": "Functional profile and disability ",
+		"CategoryDescription": "In this category, general questions on functional status and disability are posed. If some limitations in performing daily activities are retrieved, additional and more detailed questions on the activities of daily living are raised."
+	},
+	{
+		"id": "541d32d2-68f9-41ba-b00b-33a8edfd2aef",
+		"createdAt": "1674206999468",
+		"updatedAt": "1674217356652",
+		"createdBy": "david.bartolome@neptune-software.com",
+		"updatedBy": "david.bartolome@neptune-software.com",
+		"CategorySort": 30,
+		"CategoryAbbreviation": "BMT",
+		"CategoryName": "Biometrics",
+		"CategoryDescription": "In this section, biometrics are recorded: blood pressure, height, weight, and BMI. In addition, if present, ongoing pregnancy is flagged to exclude biases in the BMI calculation."
+	},
+	{
+		"id": "3d49a257-d1a9-41df-af2c-4407ad4eadb4",
+		"createdAt": "1674206999468",
+		"updatedAt": "1674206999468",
+		"createdBy": "david.bartolome@neptune-software.com",
+		"updatedBy": "david.bartolome@neptune-software.com",
+		"CategorySort": 60,
+		"CategoryAbbreviation": "FRS",
+		"CategoryName": "Family Risk Score",
+		"CategoryDescription": "In this section, the presence of familiarity with diseases of concern is investigated through a specific set of questions."
+	},
+	{
+		"id": "17627ffc-bfb7-4489-aff6-cf6d8a2835ce",
+		"createdAt": "1674206999468",
+		"updatedAt": "1674206999468",
+		"createdBy": "david.bartolome@neptune-software.com",
+		"updatedBy": "david.bartolome@neptune-software.com",
+		"CategorySort": 70,
+		"CategoryAbbreviation": "MHS",
+		"CategoryName": "Mental Health Status",
+		"CategoryDescription": "In this section the patient is asked questions about his mental health status and mood."
+	}
+]
